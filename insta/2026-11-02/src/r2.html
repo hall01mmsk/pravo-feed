@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset=utf-8><link rel=stylesheet href=common.css><style>
+#bg{position:absolute;inset:0;background:#080707}
+.streak{position:absolute;width:1800px;height:260px;left:-400px;border-radius:50%;filter:blur(70px);opacity:.5}
+#s1{top:300px;background:rgba(226,71,93,.45)}#s2{top:1100px;background:rgba(150,40,60,.35)}
+.bar{position:absolute;left:0;right:0;height:150px;background:#000}#bt{top:0}#bb{bottom:0}
+#txt{position:absolute;left:96px;right:96px;top:480px;font-family:'Manrope';font-weight:800;font-size:104px;line-height:1.1;letter-spacing:-.035em;white-space:pre-wrap}
+#txt .a{color:#e2475d}
+#txt .c{display:inline-block;width:9px;height:100px;background:#e2475d;vertical-align:-10px;margin-left:6px}
+#tag{position:absolute;left:96px;top:370px;font-family:'Inter Tight';font-weight:600;font-size:36px;letter-spacing:.24em;color:#8f8680;text-transform:uppercase}
+#sv{position:absolute;left:96px;top:1200px;font-family:'Inter Tight';font-weight:600;font-size:46px;color:#b9aea4;opacity:0}
+</style></head><body><div id=bg></div><div class=streak id=s1></div><div class=streak id=s2></div>
+<div id=tag>никто не говорит</div><div id=txt></div><div id=sv>сохрани — перечитаешь в понедельник</div>
+<div id=vig></div><div id=grain></div><div class=bar id=bt></div><div class=bar id=bb></div>
+<script>
+// [start, end, text]; *word* = accent
+const S=[[0,3.0,"никто\nне говорит,\nчто деньги\nлюбят *скуку.*"],
+[3.0,6.0,"богатеют\nне от одной\nсмелой ставки."],
+[6.0,8.6,"а от *скучных*\nповторений:"],
+[8.6,12.2,"учёт —\nкаждый день.\nплан —\nкаждую неделю.\nритм —\nодин и тот же."],
+[12.2,15.0,"скука —\nэто *стратегия.*"]];
+const CPS=26;
+const $=id=>document.getElementById(id);
+function fmt(s,n){let out='',acc=false,k=0;for(const ch of s){if(ch==='*'){acc=!acc;out+=acc?'<span class=a>':'</span>';continue}if(k>=n)break;out+=ch==='<'?'&lt;':ch;k++}if(acc)out+='</span>';return out}
+const len=s=>s.replace(/\*/g,'').length;
+window.render=t=>{
+  const sc=S.find(x=>t>=x[0]&&t<x[1])||S[S.length-1];
+  const n=Math.floor((t-sc[0])*CPS)+ (sc[0]===0?6:0);
+  const blink=(Math.floor(t*2.5)%2===0)||n<len(sc[2]);
+  const out=Math.min(Math.max((t-(sc[1]-0.2))/0.2,0),1);
+  $('txt').innerHTML=fmt(sc[2],n)+(blink?'<span class=c></span>':'');
+  $('txt').style.opacity=sc===S[S.length-1]?1:1-out;
+  $('tag').style.opacity=t<3?1:0;
+  const sv=Math.min(Math.max((t-13)/0.5,0),1);$('sv').style.opacity=sv;
+  $('s1').style.transform=`translateX(${Math.sin(t*.35)*260}px) rotate(-8deg)`;
+  $('s2').style.transform=`translateX(${Math.cos(t*.3)*300}px) rotate(6deg)`;
+  $('txt').style.transform=`scale(${1+t*0.003})`;
+  $('grain').style.transform=`translate(${(t*997)%180-90}px,${(t*577)%180-90}px)`;
+};render(0);
+</script></body></html>
