@@ -1,0 +1,42 @@
+<!doctype html><html><head><meta charset=utf-8><link rel=stylesheet href=common.css><style>
+html,body{background:#a8172f}
+#bg{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 35%,#c92a44 0%,#a8172f 50%,#6e0b1c 100%)}
+#tiny{position:absolute;left:0;right:0;top:0;height:1350px;display:flex;align-items:center;justify-content:center;text-align:center}
+#tiny div{font-family:'Inter Tight';font-weight:600;color:#fff3e8;letter-spacing:.02em;line-height:1.15}
+#big{position:absolute;left:80px;right:80px;top:330px;font-family:'Oswald';font-weight:700;text-transform:uppercase;color:#fff3e8;font-size:146px;line-height:1.1;letter-spacing:-.005em}
+#big b{color:#150608;font-weight:700}
+#n{position:absolute;left:80px;top:220px;font-family:'Oswald';font-weight:700;font-size:64px;color:#150608;letter-spacing:.04em}
+#sub{position:absolute;left:80px;right:80px;top:1150px;font-family:'Manrope';font-weight:800;font-size:46px;line-height:1.3;color:#ffd9d0}
+#flash{position:absolute;inset:0;background:#fff;opacity:0}
+#grain{opacity:.12}
+</style></head><body>
+<div id=bg></div>
+<div id=tiny><div id=tt></div></div>
+<div id=n></div><div id=big></div><div id=sub></div>
+<div id=vig style="background:radial-gradient(ellipse at 50% 45%,transparent 50%,rgba(40,0,8,.55))"></div><div id=grain></div><div id=flash></div>
+<script>
+const Q=[
+ {t:0,  tiny:'10 минут в неделю,<br>которые наводят<br>порядок в деньгах', big:'3 вопроса<br>в конце<br><b>каждой</b><br>недели', n:'', sub:'задай себе в воскресенье — 10 минут'},
+ {t:2.8,tiny:'вопрос 1', big:'что<br>принесло<br><b>деньги?</b>', n:'01', sub:'делай больше этого на следующей неделе'},
+ {t:5.6,tiny:'вопрос 2', big:'что съело<br>время<br><b>впустую?</b>', n:'02', sub:'убери, делегируй или сократи'},
+ {t:8.4,tiny:'вопрос 3', big:'какое<br>одно дело<br><b>сдвинет всё?</b>', n:'03', sub:'поставь его первым в понедельник'},
+ {t:11.2,tiny:'и всё', big:'так<br>работает<br><b>система,</b><br>а не настроение', n:'', sub:'сохрани и сделай это в это воскресенье'},
+];
+const $=id=>document.getElementById(id),cl=x=>Math.min(Math.max(x,0),1),e=x=>1-Math.pow(1-cl(x),3),ei=x=>cl(x)*cl(x)*cl(x);
+window.render=t=>{
+  let i=0;for(let k=0;k<Q.length;k++) if(t>=Q[k].t) i=k;
+  const q=Q[i],lt=t-q.t;
+  $('tt').innerHTML=q.tiny; $('big').innerHTML=q.big; $('n').textContent=q.n; $('sub').textContent=q.sub;
+  // small text: shows 0..0.55s, then zooms huge & fades; first scene: tiny only 0.9s readable then zoom
+  const hold=i===0?0.9:0.45, z=ei((lt-hold)/0.35);
+  const ts=i===0?48:40;
+  $('tt').style.fontSize=ts+'px';
+  $('tiny').style.opacity=lt<hold+0.35?1-z:0;
+  $('tiny').style.transform=`scale(${1+22*z})`;
+  const b=e((lt-hold-0.2)/0.3);
+  $('big').style.opacity=b;$('big').style.transform=`scale(${1.35-0.35*b})`;$('big').style.transformOrigin='0 0';
+  $('n').style.opacity=b;$('sub').style.opacity=e((lt-hold-0.6)/0.3);
+  $('flash').style.opacity=(lt>=hold+0.2&&lt<hold+0.3)?0.3*(1-(lt-hold-0.2)/0.1):0;
+  $('grain').style.transform=`translate(${(t*997)%180-90}px,${(t*577)%180-90}px)`;
+};render(0);
+</script></body></html>
