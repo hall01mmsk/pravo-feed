@@ -1,0 +1,50 @@
+<!doctype html><html><head><meta charset=utf-8><link rel=stylesheet href=common.css><style>
+#bg{position:absolute;inset:-60px;background:linear-gradient(170deg,#121011 0%,#0a0909 60%,#140c0e 100%)}
+#h{position:absolute;left:90px;right:90px;top:230px;font-family:'Onest';font-weight:800;font-size:96px;line-height:1.04;letter-spacing:-.035em}
+#h em{font-family:'Playfair Display';font-style:italic;font-weight:700;color:#e2475d}
+#list{position:absolute;left:90px;right:90px;top:560px}
+.row{display:flex;align-items:center;justify-content:space-between;height:150px;border-bottom:2px solid #221c1c}
+.lb{font-family:'Manrope';font-weight:800;font-size:58px;letter-spacing:-.02em;color:#f3ede4}
+.sw{width:170px;height:92px;border-radius:46px;position:relative;flex:none;margin-left:30px}
+.kn{position:absolute;top:8px;width:76px;height:76px;border-radius:50%;background:#fff;box-shadow:0 6px 18px rgba(0,0,0,.5)}
+#big{position:absolute;left:90px;right:90px;top:1180px;display:flex;align-items:center;gap:40px;opacity:0}
+#big .sw{width:230px;height:124px;border-radius:62px;margin:0}
+#big .kn{width:104px;height:104px;top:10px}
+#big .t{font-family:'Unbounded';font-weight:800;font-size:60px;line-height:1.05;letter-spacing:-.04em}
+#big .t span{color:#c6f432}
+</style></head><body>
+<div id=bg></div>
+<div id=h>выключи <em>4 настройки</em><br>и деньги пойдут</div>
+<div id=list></div>
+<div id=big><div class=sw id=bsw><div class=kn id=bkn></div></div><div class=t>режим роста:<br><span id=bon>ON</span></div></div>
+<div id=vig></div><div id=grain></div>
+<script>
+const L=['«что скажут»','«сделаю идеально»','«начну потом»','«всё сама»'];
+const $=id=>document.getElementById(id),cl=x=>Math.min(Math.max(x,0),1),e=x=>1-Math.pow(1-cl(x),3);
+const eb=x=>{x=cl(x);const c1=1.7,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)};
+L.forEach(l=>{$('list').insertAdjacentHTML('beforeend',`<div class=row><div class=lb>${l}</div><div class=sw><div class=kn></div></div></div>`)});
+const rows=[...document.querySelectorAll('#list .row')];
+const OFF=[2.2,4.4,6.6,8.8];
+function setSw(sw,kn,v,w,kw,on='#e2475d'){ // v: 1=on 0=off
+  kn.style.left=(8+(w-kw-16)*v)+'px';
+  const c=v>.5?on:'#3a3333';sw.style.background=v>.5?on:'#3a3333';
+  sw.style.boxShadow=v>.5?`0 0 40px ${on}88`:'none';
+}
+window.render=t=>{
+  rows.forEach((r,k)=>{
+    const a=e((t-0.15-k*0.12)/0.35);r.style.opacity=k===0&&t<0.01?1:a; if(t<0.01)r.style.opacity=1;
+    r.style.transform=`translateX(${(1-(t<0.01?1:a))*80}px)`;
+    const v=1-eb((t-OFF[k])/0.35);
+    setSw(r.querySelector('.sw'),r.querySelector('.kn'),Math.min(Math.max(v,0),1.05),170,76);
+    const off=t>OFF[k]+0.2;
+    r.querySelector('.lb').style.color=off?'#5f5753':'#f3ede4';
+    r.querySelector('.lb').style.textDecoration=off?'line-through':'none';
+    r.querySelector('.lb').style.textDecorationColor='#e2475d';
+  });
+  const bt=t-10.4;$('big').style.opacity=e(bt/0.4);$('big').style.transform=`translateY(${(1-e(bt/0.4))*50}px)`;
+  const bv=eb((bt-0.8)/0.4);setSw($('bsw'),$('bkn'),cl(bv),230,104,'#c6f432');
+  $('bon').style.opacity=bt>1?1:0.25;
+  $('bg').style.transform=`scale(${1.03+0.02*Math.sin(t*.4)})`;
+  $('grain').style.transform=`translate(${(t*997)%180-90}px,${(t*577)%180-90}px)`;
+};render(0);
+</script></body></html>

@@ -1,0 +1,63 @@
+<!doctype html><html><head><meta charset=utf-8><link rel=stylesheet href=common.css><style>
+#bg{position:absolute;inset:0;background:#0a0808;overflow:hidden}
+.orb{position:absolute;border-radius:50%;filter:blur(110px)}
+#o1{width:900px;height:900px;background:rgba(226,71,93,.30);left:-300px;top:300px}
+#o2{width:700px;height:700px;background:rgba(120,30,50,.35);right:-260px;top:900px}
+#cnt{position:absolute;right:90px;top:240px;font-family:'Inter Tight';font-weight:600;font-size:38px;letter-spacing:.16em;color:#6f6762}
+#hook{position:absolute;left:90px;right:90px;top:330px;font-family:'Onest';font-weight:800;font-size:112px;line-height:1.03;letter-spacing:-.04em}
+#hook em{font-family:'Playfair Display';font-style:italic;font-weight:700;color:#e2475d;letter-spacing:-.01em}
+#myth,#truth{position:absolute;left:90px;right:90px}
+#myth{top:330px}#truth{top:760px}
+.lab{font-family:'Inter Tight';font-weight:600;font-size:40px;letter-spacing:.24em;margin-bottom:26px}
+#myth .lab{color:#6f6762}#truth .lab{color:#e2475d}
+.txt{font-family:'Onest';font-weight:800;font-size:90px;line-height:1.06;letter-spacing:-.035em;position:relative;display:inline}
+#myth .txt{color:#8a817b}
+#truth .txt em{font-family:'Playfair Display';font-style:italic;font-weight:700;color:#e2475d;letter-spacing:-.01em}
+.w{display:inline-block;margin-right:.22em}
+#strike{position:absolute;left:90px;height:10px;background:#e2475d;border-radius:5px;transform-origin:left}
+</style></head><body>
+<div id=bg><div class=orb id=o1></div><div class=orb id=o2></div></div>
+<div id=cnt></div>
+<div id=hook>3 мифа<br>о деньгах,<br>в которые <em>верит</em><br>почти каждый</div>
+<div id=myth><div class=lab>МИФ</div><div class=txt id=mt></div></div>
+<div id=strike></div>
+<div id=truth><div class=lab>ПРАВДА</div><div class=txt id=tt></div></div>
+<div id=vig></div><div id=grain></div>
+<script>
+const M=[[2.2,'деньги портят людей','деньги <em>усиливают</em> то, что в тебе уже есть'],
+[5.9,'богатыми рождаются','обращаться с деньгами <em>учатся.</em> это навык'],
+[9.6,'начну откладывать, когда буду больше получать','привычка откладывать <em>начинается</em> с первой суммы']];
+const $=id=>document.getElementById(id),cl=x=>Math.min(Math.max(x,0),1),e=x=>1-Math.pow(1-cl(x),3);
+const wrap=h=>{const d=document.createElement('div');d.innerHTML=h;const out=[];d.childNodes.forEach(n=>{const words=n.textContent.split(/\s+/).filter(Boolean);words.forEach(w=>{out.push(n.nodeType===3?w:`<em>${w}</em>`)})});return out.map(w=>`<span class=w>${w}</span>`).join('')};
+let cur=-2;
+window.render=t=>{
+  let i=-1;M.forEach((m,k)=>{if(t>=m[0])i=k});
+  if(i!==cur){cur=i;if(i>=0){$('mt').innerHTML=wrap(M[i][1]);$('tt').innerHTML=wrap(M[i][2]);}}
+  const ht=i<0?1:1-e((t-M[0][0])/0.3);
+  $('hook').style.opacity=t<M[0][0]?1:ht;$('hook').style.transform=`translateY(${(1-ht)*-60}px)`;
+  $('myth').style.display=$('truth').style.display=i<0?'none':'block';
+  $('cnt').textContent=i<0?'':`0${i+1} / 03`;
+  if(i<0){$('strike').style.width=0;}
+  else{const lt=t-M[i][0];
+    const mw=[...$('mt').querySelectorAll('.w')];
+    mw.forEach((w,k)=>{const a=e((lt-k*0.08)/0.25);w.style.opacity=a;w.style.transform=`translateY(${(1-a)*40}px)`});
+    $('myth').querySelector('.lab').style.opacity=e(lt/0.2);
+    // strike through myth text lines
+    const r=$('mt').getBoundingClientRect();const s=e((lt-0.9)/0.35);
+    const rects=[...$('mt').getClientRects()];
+    const last=rects[rects.length-1]||r;
+    $('strike').style.top=(r.top+ (r.height)/2 -5)+'px';
+    $('strike').style.width=(r.width*s)+'px';$('strike').style.opacity=rects.length>1?0:1;
+    if(rects.length>1){mw.forEach(w=>{w.style.textDecoration=s>0.5?'line-through':'none';w.style.textDecorationColor='#e2475d';w.style.textDecorationThickness='8px'})}
+    const tl=$('truth').querySelector('.lab');tl.style.opacity=e((lt-1.3)/0.25);
+    const tw=[...$('tt').querySelectorAll('.w')];
+    tw.forEach((w,k)=>{const a=e((lt-1.5-k*0.11)/0.22);w.style.opacity=a;w.style.transform=`translateY(${(1-a)*50}px) scale(${1+0.2*(1-a)})`;w.style.filter=a<1?`blur(${(1-a)*8}px)`:'none'});
+    // exit
+    const nx=i<2?M[i+1][0]:99;const ex=e((t-(nx-0.25))/0.25);
+    $('myth').style.opacity=$('truth').style.opacity=1-ex;
+  }
+  $('o1').style.transform=`translate(${Math.sin(t*.35)*160}px,${Math.cos(t*.3)*120}px)`;
+  $('o2').style.transform=`translate(${Math.cos(t*.28)*-140}px,${Math.sin(t*.33)*160}px)`;
+  $('grain').style.transform=`translate(${(t*997)%180-90}px,${(t*577)%180-90}px)`;
+};render(0);
+</script></body></html>

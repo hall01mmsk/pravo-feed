@@ -21,3 +21,14 @@
 7. Палитра: тёмный + #e2475d; для одного ролика в день — инверсия (насыщенный вишнёвый фон, кремовый/чёрный текст).
 Аналитика 02.11: лучший — «заряд 1%→100%» 139 просм., 3 сохр.; досмотр ~4 с из 15, view rate 35–37% → крючок виден с 0-го кадра, ролики 14 с.
 Источники: tokchart.com/tiktok-trending-sounds, socialpilot.co/blog/instagram-reels-trends, viibeo.com/blog/best-faceless-video-ideas-for-tiktok-and-reels-in-2026, creativebloq.com (typography trends 2026)
+
+## 2026-11-04
+1. Звуки TikTok (Tokchart, 03.11): «Paper Moon Static» — Marnie Cusk (+114 тыс. видео/день), «Ramalama (Bang Bang)» — Róisín Murphy (+80 тыс.); хэллоуинские звуки ещё в росте, но сезон закрыт.
+2. Звуки Reels (Buffer, ноябрь): «Windows in Brazil (Sped Up)» — «экран загрузки» 0% → 100% → применено в R1 (загрузка денежного мышления).
+3. Reels: «Toggle on» (Mix / Touch the Sky) — анимированный переключатель ON/OFF для анонса/перемены → применено в R2 (выключи 4 настройки → режим роста ON).
+4. Reels: «Luminary» — драматичный звук под экранный текст; «Drop It Like It's Hot x Stayin' Alive» — zoom на аффирмацию.
+5. Faceless (HookClone 2026): kinetic text — 5–9 слов в строке, смена текста на такт, развязка на дроп; «миф vs факт» как структура → R3 (3 мифа о деньгах).
+6. Сезон: рождественские Mariah Carey / Kelly Clarkson уже используются — для отсчётов к концу года (идея на конец ноября: «осталось N дней 2026»).
+7. Палитра: тёмный + #e2475d; трендовый второй акцент — лайм #c6f432 точечно (тумблер ON).
+Аналитика 03.11: лучший — счётчик «1% в день» 148 просм., view rate 43%, 2 сохр.; рилсы с глитчем/вспышками (02.11 R1, 03.11 POV) — 0 и 1 просмотр → вспышки и глитч убраны; карусели почти без показов.
+Источники: tokchart.com/tiktok-trending-sounds, buffer.com/resources/trending-audio-instagram, napoleoncat.com/blog/instagram-reels-trends, hookclone.com/blog/trending-tiktok-formats-2026
