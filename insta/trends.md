@@ -32,3 +32,15 @@
 7. Палитра: тёмный + #e2475d; трендовый второй акцент — лайм #c6f432 точечно (тумблер ON).
 Аналитика 03.11: лучший — счётчик «1% в день» 148 просм., view rate 43%, 2 сохр.; рилсы с глитчем/вспышками (02.11 R1, 03.11 POV) — 0 и 1 просмотр → вспышки и глитч убраны; карусели почти без показов.
 Источники: tokchart.com/tiktok-trending-sounds, buffer.com/resources/trending-audio-instagram, napoleoncat.com/blog/instagram-reels-trends, hookclone.com/blog/trending-tiktok-formats-2026
+
+## 2026-11-05
+1. Звуки TikTok (Tokchart, 04.11): «Paper Moon Static» — Marnie Cusk (№1), «Ramalama (Bang Bang)» — Róisín Murphy, новый в топ-3 — «Shadow Spells» — Theo Burntwood.
+2. Reels (Postdom, 2–8.11): «Mariah has defrosted» — All I Want for Christmas Is You (5,8 млн Reels) — праздничные переходы; «Angel of my dreams» (241 тыс.), «Housewife confidence clips» (221 тыс.), «Nicole Kidman glow-up» (82 тыс.) — трансформации.
+3. Reels (SocialPilot): «Everlong» — Foo Fighters для «как начиналось vs как идёт», «день 1 → день 100» → применено в R1 (счётчик 100 дней дисциплины).
+4. Reels (Buffer): «Pump It» — Black Eyed Peas, мини-влог с подписями-«лейблами» к частям кадра → R2 (разбор дохода на 4 детали с выносками).
+5. Reels (Buffer): «Luminary» — эпичный инструментал под экранный текст; «Sunshine (Instrumental)» — Twista под быстрые советы текстом → R3 (поисковая строка: стираю вопрос и пишу правильный).
+6. Faceless: визуально «числовые» форматы (счётчик, %, загрузка) держат досмотр лучше всего у нас — повторяем механику прогресса, но в новой обёртке.
+7. Сезон: рождественские звуки (Mariah, Ariana «Santa Tell Me», Kelly Clarkson) уже массовые — к середине ноября готовить «осталось N дней до 2027».
+8. Палитра: тёмный графит + #e2475d; вторым акцентом — холодный «экранный» белый с лёгким свечением для UI-форматов.
+Аналитика 04.11: лучший — «загрузка 0→100%» 154 просм., view rate 46,5%, ср. досмотр 6,3 с (рекорд), 2 сохр.; «тумблеры» 101 просм.; «3 мифа» 0 просм. (данные могли не подтянуться). Карусели 02–04.11: 0–1 просмотр — карусели почти не раздаются, держим 1 в день, но ставку делаем на рилсы.
+Источники: tokchart.com/tiktok-trending-sounds, postdom.com/blog/instagram-trends, socialpilot.co/blog/instagram-reels-trends, buffer.com/resources/trending-audio-instagram

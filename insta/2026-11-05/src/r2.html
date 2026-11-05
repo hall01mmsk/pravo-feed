@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta charset=utf-8><link rel=stylesheet href=common.css><style>
+#bg{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 42%,#2b1216 0%,#0e0a0a 55%,#070606 100%)}
+#tag{position:absolute;left:90px;top:360px;font-family:'Inter Tight';font-weight:600;font-size:38px;letter-spacing:.24em;color:#e2475d}
+#hook{position:absolute;left:90px;right:90px;top:440px;font-family:'Onest';font-weight:800;font-size:136px;line-height:1.04;letter-spacing:-.04em}
+#hook em,#fin em{font-family:'Playfair Display';font-style:italic;font-weight:700;color:#e2475d;letter-spacing:-.01em}
+#core{position:absolute;left:0;right:0;top:700px;text-align:center;font-family:'Unbounded';font-weight:800;font-size:150px;letter-spacing:-.05em;color:#f3ede4}
+#core:after{content:'';position:absolute;left:50%;top:50%;width:560px;height:560px;margin:-280px 0 0 -280px;border-radius:50%;background:radial-gradient(circle,rgba(226,71,93,.28),transparent 65%);z-index:-1}
+svg{position:absolute;inset:0}
+.lab{position:absolute;width:420px;font-family:'Onest';font-weight:800;font-size:66px;line-height:1;letter-spacing:-.03em}
+.lab .n{display:block;font-family:'Inter Tight';font-weight:600;font-size:28px;letter-spacing:.22em;color:#e2475d;margin-bottom:12px}
+.lab .d{display:block;font-family:'Manrope';font-weight:500;font-size:40px;line-height:1.25;letter-spacing:0;color:#a89d94;margin-top:12px}
+.r{text-align:right}
+#fin{position:absolute;left:90px;right:90px;top:1040px;font-family:'Onest';font-weight:800;font-size:92px;line-height:1.08;letter-spacing:-.035em;text-align:center}
+</style></head><body>
+<div id=bg></div>
+<div id=tag>АНАТОМИЯ</div>
+<div id=hook>доход —<br>это не <em>зарплата.</em><br>это 4 детали</div>
+<div id=core>ДОХОД</div>
+<svg width=1080 height=1920><g id=lines fill=none stroke="#e2475d" stroke-width=4 stroke-linecap=round></g><g id=pts fill="#e2475d"></g></svg>
+<div id=labs></div>
+<div id=fin>слабая деталь —<br><em>потолок</em> дохода</div>
+<div id=vig></div><div id=grain></div>
+<script>
+// [time, anchor x,y on core, label x,y, align, num, title, desc]
+const L=[[2.2,330,720,90,330,'l','01','навык','что ты умеешь<br>делать хорошо'],
+[4.6,750,720,570,330,'r','02','спрос','кому это нужно<br>прямо сейчас'],
+[7.0,330,900,90,1010,'l','03','упаковка','как о тебе<br>узнают'],
+[9.4,750,900,570,1010,'r','04','система','как это<br>повторить']];
+const $=id=>document.getElementById(id),cl=x=>Math.min(Math.max(x,0),1),e=x=>1-Math.pow(1-cl(x),3);
+const NS='http://www.w3.org/2000/svg';
+L.forEach((l,k)=>{const [t,ax,ay,lx,ly,al]=l;
+  const ex= al==='l'? lx+60 : lx+420-60, ey= ay<800? ly+200 : ly-30;
+  const p=document.createElementNS(NS,'path');p.setAttribute('d',`M${ax} ${ay} L${ex} ${ey}`);p.id='p'+k;$('lines').appendChild(p);
+  const c=document.createElementNS(NS,'circle');c.setAttribute('cx',ax);c.setAttribute('cy',ay);c.setAttribute('r',10);c.id='c'+k;$('pts').appendChild(c);
+  const d=document.createElement('div');d.className='lab'+(al==='r'?' r':'');d.id='l'+k;d.style.left=lx+'px';d.style.top=(ay<800?ly-40:ly+20)+'px';
+  d.innerHTML=`<span class=n>${l[6]}</span>${l[7]}<span class=d>${l[8]}</span>`;$('labs').appendChild(d);
+  p._len=Math.hypot(ex-ax,ey-ay);p.style.strokeDasharray=p._len;});
+const FIN=12.0;
+window.render=t=>{
+  const s0=L[0][0]-0.6;
+  const h=t<s0?1:1-e((t-s0)/0.35);
+  $('hook').style.opacity=h;$('hook').style.transform=`translateY(${(1-h)*-50}px)`;
+  const c=e((t-s0-0.1)/0.5);$('core').style.opacity=c;$('core').style.transform=`scale(${0.85+0.15*c})`;
+  $('tag').style.opacity=t<s0?1:0;
+  L.forEach((l,k)=>{const lt=t-l[0];const a=e(lt/0.45);
+    $('p'+k).style.strokeDashoffset=$('p'+k)._len*(1-a);$('p'+k).style.opacity=lt<0?0:1;
+    $('c'+k).setAttribute('r',lt<0?0:10*e(lt/0.2));
+    const b=e((lt-0.3)/0.4);const lb=$('l'+k);lb.style.opacity=b;lb.style.transform=`translateY(${(1-b)*30}px)`;lb.style.filter=`blur(${(1-b)*8}px)`;});
+  const f=e((t-FIN)/0.5);$('fin').style.opacity=f;$('fin').style.transform=`translateY(${(1-f)*40}px)`;
+  const dim=1-f;$('labs').style.opacity=dim;$('lines').style.opacity=dim;$('pts').style.opacity=dim;$('core').style.top=(700-180*f)+'px';
+  $('grain').style.transform=`translate(${(t*997)%180-90}px,${(t*577)%180-90}px)`;
+};render(0);
+</script></body></html>
