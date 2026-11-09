@@ -44,3 +44,15 @@
 8. Палитра: тёмный графит + #e2475d; вторым акцентом — холодный «экранный» белый с лёгким свечением для UI-форматов.
 Аналитика 04.11: лучший — «загрузка 0→100%» 154 просм., view rate 46,5%, ср. досмотр 6,3 с (рекорд), 2 сохр.; «тумблеры» 101 просм.; «3 мифа» 0 просм. (данные могли не подтянуться). Карусели 02–04.11: 0–1 просмотр — карусели почти не раздаются, держим 1 в день, но ставку делаем на рилсы.
 Источники: tokchart.com/tiktok-trending-sounds, postdom.com/blog/instagram-trends, socialpilot.co/blog/instagram-reels-trends, buffer.com/resources/trending-audio-instagram
+
+## 2026-11-09
+1. Звуки TikTok (Tokchart, 09.11): «Paper Moon Static» — Marnie Cusk держит №1 (+106 тыс. видео/сутки) уже вторую неделю; «Ramalama» выпал из топ-5.
+2. Reels (Postdom, 2–8.11): «Mariah has defrosted» — All I Want for Christmas Is You (5,8 млн Reels) — переход в праздничный сезон; «Housewife» — Tate McRae (221 тыс.) — короткая строка текста «про то, чтобы появляться для себя»; «Dame Hombro» (162 тыс.) — командный старт недели.
+3. Reels (SocialPilot): «Hold On, We're Going Home» — Drake — «starting my week» клипы → понедельничный контекст для R2 (правило 2 минут).
+4. Reels (SocialPilot): «November Rain» — кинонарезки «тогда/сейчас», «Everlong» — «how it started vs how it's going» → R3 (зачёркивание ошибки → замена).
+5. Faceless (AutoReels, Oct–Nov): «hard truths» — «никто не придёт тебя спасать, и это хорошая новость»; «one habit a day» — «правило 2 минут»; «money mistakes in your 20s» → все три крючка дня.
+6. Анимация: кинетическая типографика по словам + кинематографичный тёмный фон с медленным зумом и световым бликом (motivation edits) → R1; крупный таймер-обратный отсчёт → R2; маркерное зачёркивание + рукописная замена → R3.
+7. Типографика: засечки как контраст «ИИ-глянцу» (Cormorant Garamond italic), моноширинный таймер (JetBrains Mono), жирный гротеск Onest.
+8. Палитра: графит + фирменный #e2475d; R1 — тёплый «киношный» янтарный блик #f2b56b поверх тёмного (сезонное тепло ноября).
+Аналитика 02–05.11: лидеры — прогресс-форматы: «загрузка 0→100%» 155 просм./view rate 46%/6,3 с, «1% в день» 148/43%, «заряд 1→100%» 146/34%; «4 детали дохода» 126/31%. Нули: 05.11 «100 дней» и «вопрос» (поисковая строка), 04.11 «мифы», 02.11 «бедное vs богатое» — либо не подтянулось, либо не раздали. Держим прогресс-механику (R2 — таймер), режем длинные вступления.
+Источники: tokchart.com, postdom.com/blog/instagram-trends, socialpilot.co/blog/instagram-reels-trends, autoreels.ai/blog/50-faceless-reel-ideas-that-get-views-with-hooks-you-can-copy

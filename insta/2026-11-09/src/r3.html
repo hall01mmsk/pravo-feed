@@ -1,0 +1,49 @@
+<!doctype html><html><head><meta charset=utf-8><link rel=stylesheet href=common.css><style>
+#bg{position:absolute;inset:0;background:linear-gradient(180deg,#120d0d 0%,#0b0808 60%,#070606 100%)}
+#tag{position:absolute;left:90px;top:330px;font-family:'Inter Tight';font-weight:600;font-size:38px;letter-spacing:.26em;color:#e2475d}
+#hook{position:absolute;left:90px;right:90px;top:420px;font-family:'Onest';font-weight:800;font-size:128px;line-height:1.04;letter-spacing:-.045em}
+#hook em,.end em{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;color:#e2475d;font-size:1.1em;letter-spacing:-.01em}
+.it{position:absolute;left:90px;right:90px;top:420px}
+.n{font-family:'Inter Tight';font-weight:600;font-size:36px;letter-spacing:.24em;color:#6f6762}
+.wr{margin-top:40px;font-family:'Onest';font-weight:800;font-size:100px;line-height:1.06;letter-spacing:-.04em;color:#8a817b}
+.l{position:relative;display:inline-block}.bar{position:absolute;left:-12px;right:-12px;top:50%;height:9px;margin-top:-2px;background:#e2475d;border-radius:5px;transform-origin:left center;transform:scaleX(0) rotate(-1.2deg)}
+.ok{margin-top:70px;font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-size:132px;line-height:1.02;color:#f3ede4;letter-spacing:-.01em}
+.ok span{color:#e2475d}
+.why{margin-top:44px;font-family:'Manrope';font-weight:500;font-size:48px;line-height:1.32;color:#a89d94}
+.end{position:absolute;left:90px;right:90px;top:460px;font-family:'Onest';font-weight:800;font-size:116px;line-height:1.05;letter-spacing:-.04em}
+.end .k{display:block;font-family:'Manrope';font-weight:500;font-size:50px;line-height:1.32;letter-spacing:0;color:#a89d94;margin-top:44px}
+.ch{display:inline-block;white-space:pre}
+</style></head><body>
+<div id=bg></div>
+<div id=tag>ДЕНЬГИ</div>
+<div id=hook>3 денежные<br>ошибки, которые<br><em>тормозят рост</em></div>
+<div id=items></div>
+<div class=end id=end style="opacity:0">какую ошибку<br>ты уже <em>вычеркнула?</em><span class=k>напиши номер в комментариях<br>и сохрани, чтобы не вернуться к ней</span></div>
+<div id=vig></div><div id=grain></div>
+<script>
+const I=[[2.2,'покупать<br>статус','покупать <span>навыки</span>','статус дешевеет, навык растёт в цене'],
+[5.7,'тратить всё,<br>что пришло','сначала <span>отложить</span>','любой доход — минус часть для себя'],
+[9.2,'деньги<br>без цели','у каждого рубля<br><span>своя задача</span>','нет плана — деньги просто исчезают']];
+const END=12.7;
+const $=id=>document.getElementById(id),cl=x=>Math.min(Math.max(x,0),1),e=x=>1-Math.pow(1-cl(x),3);
+const els=I.map((s,k)=>{const d=document.createElement('div');d.className='it';
+  d.innerHTML=`<div class=n>ОШИБКА 0${k+1} / 03</div><div class=wr>${s[1].split('<br>').map(l=>`<span class=l>${l}<i class=bar></i></span>`).join('<br>')}</div><div class=ok>${s[2]}</div><div class=why>${s[3]}</div>`;
+  $('items').appendChild(d);return d});
+window.render=t=>{
+  const h=t<I[0][0]-0.3?1:1-e((t-(I[0][0]-0.3))/0.3);
+  $('hook').style.opacity=h;$('hook').style.display=h<=0?'none':'block';
+  $('tag').style.opacity=t<END-0.3?1:1-e((t-END+0.3)/0.3);
+  I.forEach((s,k)=>{const d=els[k];const st=s[0],en=k<2?I[k+1][0]:END;const on=t>=st&&t<en;d.style.display=on?'block':'none';if(!on)return;
+    const lt=t-st;
+    const a=e(lt/0.3);d.querySelector('.n').style.opacity=a;
+    const wr=d.querySelector('.wr');wr.style.opacity=a;wr.style.transform=`translateX(${(1-a)*-60}px)`;
+    d.querySelectorAll('.bar').forEach((q,j)=>q.style.transform=`scaleX(${e((lt-0.55-j*0.25)/0.35)}) rotate(-1.2deg)`);
+    wr.style.color=lt>0.7?'#5a524d':'#8a817b';
+    const ok=d.querySelector('.ok');const b=e((lt-1.2)/0.45);ok.style.opacity=b;ok.style.transform=`translateY(${(1-b)*40}px)`;ok.style.filter=`blur(${(1-b)*12}px)`;
+    const w=d.querySelector('.why');const c=e((lt-1.7)/0.4);w.style.opacity=c;
+    const ex=e((t-(en-0.22))/0.22);d.style.opacity=1-ex;
+  });
+  const ea=e((t-END)/0.45);$('end').style.opacity=ea;$('end').style.transform=`translateY(${(1-ea)*40}px)`;
+  $('grain').style.transform=`translate(${(t*997)%180-90}px,${(t*577)%180-90}px)`;
+};render(0);
+</script></body></html>
