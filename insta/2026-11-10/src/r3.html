@@ -1,0 +1,53 @@
+<!doctype html><html><head><meta charset=utf-8><link rel=stylesheet href=common.css><style>
+#bg{position:absolute;inset:-100px;background:radial-gradient(ellipse at 50% 55%,#1f1416 0%,#0c0a0b 55%,#060505 100%)}
+#glow{position:absolute;width:900px;height:700px;left:90px;top:560px;border-radius:50%;background:radial-gradient(circle,rgba(226,71,93,.35),transparent 65%);filter:blur(50px);opacity:0}
+#hd{position:absolute;left:80px;right:80px;top:300px;text-align:center;font-family:'Onest';font-weight:800;font-size:104px;line-height:1.04;letter-spacing:-.04em;color:#f3ede4}
+#hd em{font-family:'Cormorant Garamond';font-style:italic;font-weight:600;color:#e2475d;font-size:1.1em;letter-spacing:-.01em}
+#grid{position:absolute;left:105px;top:610px;width:870px;display:grid;grid-template-columns:repeat(6,130px);gap:18px}
+.c{width:130px;height:130px;border-radius:26px;border:3px solid rgba(243,237,228,.18);position:relative;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono';font-weight:700;font-size:34px;color:rgba(243,237,228,.25)}
+.c i{position:absolute;inset:0;border-radius:23px;transform:scale(0)}
+.c span{position:relative}
+#lab{position:absolute;left:80px;right:80px;top:1220px;text-align:center}
+.l1{font-family:'Unbounded';font-weight:800;font-size:76px;letter-spacing:-.03em;color:#f3ede4;line-height:1.05}
+.l1 em{font-style:normal;color:#e2475d}
+.l2{margin-top:16px;font-family:'Manrope';font-weight:500;font-size:52px;line-height:1.24;color:#b9aea4}
+#cnt{position:absolute;left:0;right:0;top:220px;text-align:center;font-family:'JetBrains Mono';font-weight:700;font-size:34px;letter-spacing:.14em;color:#6f6762}
+</style></head><body>
+<div id=bg></div><div id=glow></div>
+<div id=cnt></div>
+<div id=hd></div>
+<div id=grid></div>
+<div id=lab></div>
+<div id=vig></div><div id=grain></div>
+<script>
+const $=id=>document.getElementById(id),cl=x=>Math.min(Math.max(x,0),1),e=x=>1-Math.pow(1-cl(x),3);
+const g=$('grid');const C=[];for(let i=0;i<24;i++){const d=document.createElement('div');d.className='c';d.innerHTML='<i></i><span>'+String(i).padStart(2,'0')+'</span>';g.appendChild(d);C.push(d)}
+// groups: [from,to,start,color,textColor]
+const G=[[0,8,2.8,'#3a3436','#8d8487'],[8,16,5.4,'#5a5053','#b3a9ac'],[16,22,8.0,'#2a2527','#6f6770'],[22,24,10.6,'#e2475d','#fff']];
+const H=[[0,'у всех <em>24 часа</em>'],[2.8,'<em>8</em> — сон'],[5.4,'<em>8</em> — работа'],[8.0,'<em>6</em> — дорога,<br>еда, быт'],[10.6,'<em>2</em> — твои'],[13.4,'разница —<br>в этих <em>двух</em>']];
+const LB=[[0,'',"разница — не в доходе.<br>смотри, где она"],[2.8,'',''],[10.6,'',"не соцсети. не «отдохну».<br>навык, проект, план"],[13.4,'',"сохрани и напиши,<br>на что уйдут твои 2 часа"]];
+let curH=-1,curL=-1;
+window.render=t=>{
+  let hi=0;H.forEach((h,i)=>{if(t>=h[0])hi=i});
+  if(hi!==curH){$('hd').innerHTML=H[hi][1];curH=hi}
+  const hlt=t-H[hi][0];const hp=hi===0?1:e(hlt/0.35);
+  $('hd').style.opacity=hp;$('hd').style.transform=`translateY(${(1-hp)*30}px)`;$('hd').style.filter=`blur(${(1-hp)*10}px)`;
+  let li=0;LB.forEach((l,i)=>{if(t>=l[0])li=i});
+  if(li!==curL){$('lab').innerHTML=LB[li][2]?'<div class=l2>'+LB[li][2]+'</div>':'';curL=li}
+  $('lab').style.opacity=li===0?1:e((t-LB[li][0]-0.4)/0.4);
+  let used=0;
+  G.forEach(([a,b,st,col,tc])=>{for(let i=a;i<b;i++){const p=e((t-st-(i-a)*0.12)/0.3);const c=C[i];
+      c.querySelector('i').style.background=col;c.querySelector('i').style.transform=`scale(${p})`;
+      c.querySelector('span').style.color=p>0.5?tc:'rgba(243,237,228,.25)';
+      if(p>0.5)used++;
+      if(col==='#e2475d'&&p>0){const pu=1+0.06*Math.sin((t-st)*6)*cl(t-st-0.4);c.style.transform=`scale(${pu})`;c.style.borderColor='#e2475d';c.querySelector('i').style.boxShadow=`0 0 ${50*p}px rgba(226,71,93,.8)`}
+  }});
+  // dim others after 10.6
+  const dm=e((t-11)/0.6);for(let i=0;i<22;i++)C[i].style.opacity=1-0.55*dm;
+  $('glow').style.opacity=dm;$('glow').style.left=(560-450+340*1)+'px';$('glow').style.top=(610+3*148-350)+'px';
+  $('cnt').textContent=`ЗАНЯТО ${String(Math.min(used,22)).padStart(2,'0')} / 24`;
+  if(t>=10.6)$('cnt').textContent='СВОБОДНО 02 / 24';
+  $('bg').style.transform=`scale(${1+t*0.006})`;
+  $('grain').style.transform=`translate(${(t*997)%180-90}px,${(t*577)%180-90}px)`;
+};render(0);
+</script></body></html>

@@ -1,0 +1,64 @@
+<!doctype html><html><head><meta charset=utf-8><link rel=stylesheet href=common.css><style>
+#bg{position:absolute;inset:-100px;background:radial-gradient(ellipse at 50% 20%,#2a1418 0%,#0d0a0b 60%,#070606 100%)}
+#note{position:absolute;left:70px;right:70px;top:230px;height:1110px;border-radius:44px;background:#17151a;box-shadow:0 30px 90px rgba(0,0,0,.6),inset 0 0 0 2px rgba(255,255,255,.05);overflow:hidden}
+#hd{position:absolute;left:52px;right:52px;top:40px;display:flex;justify-content:space-between;font-family:'Inter Tight';font-weight:600;font-size:38px;color:#e2475d}
+#dt{position:absolute;left:0;right:0;top:118px;text-align:center;font-family:'Inter Tight';font-weight:600;font-size:28px;color:#6f6870;letter-spacing:.04em}
+#body{position:absolute;left:60px;right:60px;top:190px}
+.ln{font-family:'Onest';color:#f3ede4;opacity:0;margin-bottom:34px}
+.t1{font-weight:800;font-size:50px;color:#e2475d;letter-spacing:.02em;margin-bottom:18px}
+.t2{font-weight:800;font-size:112px;line-height:1.03;letter-spacing:-.035em}
+.t3{font-weight:500;font-size:62px;line-height:1.26;color:#d9d1c8}
+.t3 b{font-weight:800;color:#f3ede4}
+.mk{white-space:nowrap;background:linear-gradient(transparent 52%,rgba(226,71,93,.75) 52%,rgba(226,71,93,.75) 92%,transparent 92%);background-repeat:no-repeat;background-size:0% 100%;padding:0 6px;font-family:'Cormorant Garamond';font-style:italic;font-weight:600;font-size:1.1em}
+.car{display:inline-block;width:5px;height:.95em;background:#e2475d;vertical-align:-.1em;margin-left:4px}
+#stamp{position:absolute;right:120px;top:1170px;font-family:'Inter Tight';font-weight:600;font-size:30px;letter-spacing:.24em;color:#6f6870}
+</style></head><body>
+<div id=bg></div>
+<div id=note><div id=hd><span>‹ Заметки</span><span>Готово</span></div><div id=dt>10 ноября 2026 г.</div><div id=body></div></div>
+<div id=vig></div><div id=grain></div>
+<script>
+// [appear time, class, html, typing duration]
+const L=[
+[0,'t1','НЕПОПУЛЯРНОЕ МНЕНИЕ:',0],
+[0,'t2','тебе не нужно больше мотивации',0],
+[2.6,'t2','нужно меньше <span class=mk>решений</span>',0.7],
+[5.0,'t3','— одежда на неделю — <b>выбрана в воскресенье</b>',0.8],
+[7.2,'t3','— процент дохода — <b>уходит в&nbsp;запас сам</b>, в&nbsp;день оплаты',0.9],
+[9.6,'t3','— 3 главных дела — <b>решены ещё вчера</b>',0.8],
+[12.0,'t2','правило <span class=mk>не устаёт</span>',0.7],
+[13.6,'t3','сохрани и убери одно решение уже сегодня',0.7],
+];
+const T=16.5;
+const $=id=>document.getElementById(id),cl=x=>Math.min(Math.max(x,0),1),e=x=>1-Math.pow(1-cl(x),3);
+const body=$('body');
+const els=L.map(l=>{const d=document.createElement('div');d.className='ln '+l[1];d.innerHTML=l[2];body.appendChild(d);
+  // wrap chars for typing
+  const chars=[];const walk=n=>{[...n.childNodes].forEach(c=>{if(c.nodeType===3){const f=document.createDocumentFragment();[...c.textContent].forEach(ch=>{const s=document.createElement('span');s.textContent=ch;f.appendChild(s);chars.push(s)});c.replaceWith(f)}else walk(c)})};walk(d);
+  d._chars=chars;return d});
+const car=document.createElement('span');car.className='car';
+window.render=t=>{
+  // which lines visible; screen 1: lines0-2 ; screen 2 (t>=5): clear title area? keep scrolling
+  let lastActive=null;
+  L.forEach((l,i)=>{const d=els[i];const lt=t-l[0];
+    if(lt<0){d.style.display='none';return}
+    d.style.display='block';d.style.opacity=1;
+    const n=d._chars.length;const shown=l[3]?Math.floor(n*cl(lt/l[3])):n;
+    d._chars.forEach((c,k)=>c.style.visibility=k<shown?'visible':'hidden');
+    if(lt< (l[3]||0)+0.6) lastActive=d;
+    d.querySelectorAll('.mk').forEach(m=>m.style.backgroundSize=(e((lt-(l[3]||0)-0.1)/0.45)*100)+'% 100%');
+  });
+  // scroll: after 5.0 hide lines 0-1 by scrolling up
+  const sc=e((t-4.7)/0.5)*0+ (t>=4.7? e((t-4.7)/0.5)*1:0);
+  const h0=els[0].offsetHeight+18+els[1].offsetHeight+34;
+  let off=sc*h0;
+  const sc2=t>=11.7?e((t-11.7)/0.5):0;
+  const h1=els[2].offsetHeight+34+els[3].offsetHeight+34;
+  off+=sc2*h1;
+  body.style.transform=`translateY(${-off}px)`;
+  els[0].style.opacity=1-sc;els[1].style.opacity=1-sc;els[2].style.opacity=1-sc2;els[3].style.opacity=1-sc2;
+  if(car.parentNode)car.remove();
+  if(lastActive&&Math.floor(t*2.5)%2===0)lastActive.appendChild(car);
+  $('note').style.transform=`scale(${1+t*0.002})`;
+  $('grain').style.transform=`translate(${(t*997)%180-90}px,${(t*577)%180-90}px)`;
+};render(0);
+</script></body></html>
