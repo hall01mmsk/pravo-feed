@@ -68,3 +68,14 @@
 8. Типографика/палитра: засечки + гротеск (Cormorant italic + Onest), моно для цифр (JetBrains Mono); R1 — тёплая сепия «тогда» → холодно-чистый «сейчас»; карусель — инверсия: кремовый фон, чёрный текст, акцент #e2475d.
 Аналитика 09.11: «3 ошибки» 114 просм./2 сохр., «никто не спасёт» 96, «2 минуты» 92; view rate 28% у всех трёх (против 43–46% у прогресс-форматов 03–04.11), ср. досмотр ~4 с. Карусель 09.11 — 0 показов. Вывод: возвращаем числовой/прогресс-визуал в первый кадр, крючок крупнее и короче.
 Источники: postdom.com/blog/instagram-trends, napoleoncat.com/blog/instagram-reels-trends, soundmatcha.com/trending, tokchart.com
+
+## 2026-11-11
+1. Reels (Postdom, 9–15.11): «Time: then and now» — Pink Floyd «Time» (445 тыс. Reels) — кадр «тогда» → тот же кадр «сейчас».
+2. Reels (Postdom): «Entiende, corazón glow-up» — Prince Royce «Rechazame» (29 тыс.) — флип со старого кадра на «после» ровно в бит → R3 (3D-флип карточек «было → стало» о разговоре про цену).
+3. Сезон (Postdom/SocialPilot): «All I Want for Christmas Is You» (5,8 млн), «Last Christmas» (753 тыс.), «Santa Tell Me» — «it's timeeee» отсчёты → R1 (счётчик 365 → 50 дней до 2027 + шкала года 86%).
+4. Reels (SocialPilot): «Sunshine (Instrumental)» — Twista под быстрые советы текстом; «Everlong» — «как начиналось / как идёт»; «Hold On, We're Going Home» — «starting my week».
+5. TikTok (SoundMatcha, 10.11): DIGIDI DIGIDI — DJ.ILHAM & DJ Miro (№1 по росту), «Te Estoy Correteando» — LATIN MAFIA & Fred again.., «oh yeah?» — Steve Lacy, «Rise Slow» — Kimo Sounds (спокойный, под текст).
+6. Анимация: «игровые» UI-механики (слот-машина, спин → стоп по одному барабану, тряска при проигрыше, свечение при выигрыше) → R2; прогресс-шкалы держат досмотр — R1.
+7. Типографика: Rubik Mono One для «табло/барабанов», Unbounded 800 для гигантских цифр, Cormorant italic акцентом; палитра — графит + #e2475d, тёмная карусель (вчера была кремовая).
+Аналитика 04–09.11: лидер — «загрузка 0→100%» 155 просм., view rate 46%, досмотр 6,3 с; «4 детали дохода» 128/31%; 09.11 — 102–115 просм., view rate ~29%, skip ~71%. 10.11 — 0: все 4 поста упали с ошибкой Metricool «account limit» (Free = 20 постов/мес, лимит ноября выбран).
+Источники: postdom.com/blog/instagram-trends, socialpilot.co/blog/instagram-reels-trends, soundmatcha.com/tiktok, help.metricool.com (лимиты Free)
