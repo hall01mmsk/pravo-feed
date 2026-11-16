@@ -2698,37 +2698,6 @@
 Своя услуга|Претензия и взыскание долга|3000|Да|за услугу</PriceList>
   </Ad>
   <Ad>
-    <Id>PB_MSK-50</Id>
-    <DateBegin>2026-11-10T12:00:00+03:00</DateBegin>
-    <AdStatus>Free</AdStatus>
-    <Category>Предложение услуг</Category>
-    <ServiceType>Деловые услуги</ServiceType>
-    <ServiceSubtype>Юридические услуги</ServiceSubtype>
-    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
-    <Title>Взыскание долга по договору через арбитраж</Title>
-    <Description><![CDATA[<p><strong>Взыскание задолженности по договору поставки, услуг и подряда в Москве для ООО и ИП: от требования об оплате до решения арбитражного суда.</strong></p><p><strong>ПОЗВОНИТЕ: БЕСПЛАТНО СКАЖУ, КАКИЕ У ВАС ШАНСЫ И СКОЛЬКО ЭТО СТОИТ</strong></p><p><strong>КОНТРАГЕНТ ТЯНЕТ С ОПЛАТОЙ, А ПОТОМ ЗАКРОЕТ ФИРМУ? С ПУСТОЙ ФИРМЫ ВЗЫСКАТЬ ПОЧТИ НЕЧЕГО. ЛУЧШЕ НАЧАТЬ, ПОКА У НЕЁ ЕСТЬ ДЕНЬГИ</strong></p><p><strong>НА ЗВОНКИ ОТВЕЧАЮ ЛИЧНО. НЕ СМОГЛИ ДОЗВОНИТЬСЯ? НАПИШИТЕ НОМЕР В ЧАТ, ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>ВАМ ДОЛЖНЫ ПО ДОГОВОРУ?</strong></p><p><strong>ДОВЕДУ ДО ДЕНЕГ НА СЧЁТЕ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>КАК ИДЁТ РАБОТА</strong></p><ul><li>проверяю, есть ли у должника имущество и счета</li><li>направляю претензию и жду 30 дней</li><li>готовлю иск с неустойкой</li><li>представляю вас в Арбитражном суде Москвы</li><li>контролирую взыскание после решения</li></ul><p>⠀</p><p><strong>ПОЧЕМУ МНЕ ДОВЕРЯЮТ</strong></p><ul><li>руководил юридической службой</li><li>специализируюсь на спорах компаний</li><li>веду дело сам от первой бумаги до исполнения</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Партнёр ушёл к конкурентам и хотел через суд забрать договоры с клиентами и банковские выписки. Суд увидел злоупотребление правом и в этой части отказал. Копия решения в фото.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>фиксирую цену после разбора документов</li><li>платите по этапам</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ. ХОТИТЕ ОБСУДИТЬ ГОЛОСОМ, ОСТАВЬТЕ КОНТАКТНЫЙ НОМЕР</strong></p><p><strong>НАЗОВИТЕ СУММУ ДОЛГА И С КАКОГО ЧИСЛА НЕ ПЛАТЯТ</strong></p>]]></Description>
-    <Price>2000</Price>
-    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_12.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_05_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_05_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/vzyskanie.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/reshenie_suda.jpg"/></Images>
-    <Address>Москва, Тверская улица, 18</Address>
-    <ManagerName>Глеб</ManagerName>
-    <ContactMethod>По телефону и в сообщениях</ContactMethod>
-    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
-    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
-    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
-    <WorkWith>ИП | ООО | АО</WorkWith>
-    <WorkExperience>10 лет и больше</WorkExperience>
-    <TakeUrgentOrders>Да</TakeUrgentOrders>
-    <Place>У себя | Удалённо</Place>
-    <Prepayment>Нужна</Prepayment>
-    <Consultations>Есть</Consultations>
-    <WorkWithContract>Да</WorkWithContract>
-    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
-    <WorkTimeFrom>10:00</WorkTimeFrom>
-    <WorkTimeTo>19:00</WorkTimeTo>
-    <PriceList>Своя услуга|Разбор документов и оценка перспектив|2000|Да|за услугу
-Своя услуга|Претензия и взыскание долга|3000|Да|за услугу</PriceList>
-  </Ad>
-  <Ad>
     <Id>PB_MSK-51</Id>
     <DateBegin>2026-11-10T12:00:00+03:00</DateBegin>
     <AdStatus>Free</AdStatus>
@@ -3677,5 +3646,615 @@
     <WorkTimeTo>19:00</WorkTimeTo>
     <PriceList>Своя услуга|Разбор документов и оценка перспектив|2000|Да|за услугу
 Своя услуга|Проверка коммерческой недвижимости|5000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_SPB-70</Id>
+    <DateBegin>2026-11-13T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Ликвидация ООО с недоимкой по налогам: юрист</Title>
+    <Description><![CDATA[<p><strong>Ликвидация ООО с недоимкой по налогам в Санкт-Петербурге: сверка с ФНС, план закрытия и защита учредителя от личных долгов.</strong></p><p><strong>ЗВОНИТЕ СЕЙЧАС: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, СКАЖУ, КАКИЕ ШАНСЫ И СКОЛЬКО СТОИТ</strong></p><p><strong>ЗАКРОЕТЕ ФИРМУ С НЕДОИМКОЙ НЕ ПО ПРАВИЛАМ, И ДОЛГ МОГУТ ВЗЫСКАТЬ С ВАС ЛИЧНО</strong></p><p><strong>ОТВЕЧАЮ САМ, БЕЗ МЕНЕДЖЕРОВ. ЕСЛИ ХОТИТЕ КОНСУЛЬТАЦИЮ, МОЖЕТЕ ОСТАВИТЬ КОНТАКТНЫЙ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>НАЛОГОВАЯ НАЧИСЛИЛА ДОЛГ, А БИЗНЕС УЖЕ НЕ РАБОТАЕТ?</strong></p><p><strong>РАЗБЕРУ, КАК ЗАКРЫТЬ ООО БЕЗ ЛИЧНОЙ ОТВЕТСТВЕННОСТИ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>сначала смотрю долги, потом подаю документы</li><li>знаю, где инспекция тормозит ликвидацию</li><li>с 2014 года работаю юристом</li></ul><p>⠀</p><p><strong>ЧТО ДЕЛАЮ</strong></p><ul><li>акт сверки с ФНС и фондами</li><li>расчёт: хватит ли имущества на долги</li><li>ликвидация или банкротство, выбираем вместе</li><li>документы до записи в ЕГРЮЛ</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Совладелец с долей 50% открыл свою фирму, увёл туда людей и через арбитраж требовал у компании договоры с клиентами и выписки банка. Я защищал компанию, в передаче ключевых документов суд отказал.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>стоимость называю после разбора</li><li>цена в договоре не меняется</li><li>оплата по этапам</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ. ЕСЛИ УДОБНЕЕ ПОГОВОРИТЬ, ОСТАВЬТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>ПРИШЛИТЕ ИНН ООО, ПОСМОТРЮ ДОЛГИ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_13.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/korp_procedury.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/reshenie_suda.jpg"/></Images>
+    <Address>Санкт-Петербург, Московский проспект, 73</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Разбор документов и план ликвидации|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_SPB-71</Id>
+    <DateBegin>2026-11-13T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Закрыть ООО без деятельности: юрист по ликвидации</Title>
+    <Description><![CDATA[<p><strong>Закрытие ООО без деятельности и с нулевой отчётностью в Петербурге: решение участников, балансы, исключение из ЕГРЮЛ.</strong></p><p><strong>ПОЗВОНИТЕ: БЕСПЛАТНО СКАЖУ, КАКИЕ У ВАС ШАНСЫ И СКОЛЬКО ЭТО СТОИТ</strong></p><p><strong>БРОШЕННОЕ ООО НЕ ИСЧЕЗАЕТ САМО. НАЛОГОВАЯ МОЖЕТ ИСКЛЮЧИТЬ ЕГО, А ДИРЕКТОРУ ЗАКРОЮТ ПУТЬ В НОВЫЙ БИЗНЕС НА 3 ГОДА</strong></p><p><strong>БЕЗ МЕНЕДЖЕРОВ, ТРУБКУ БЕРУ САМ. НЕ ДОЗВОНИЛИСЬ? МОЖНО ОСТАВИТЬ НОМЕР В СООБЩЕНИЯХ, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>ФИРМА НЕ РАБОТАЕТ, А ОТЧЁТЫ И ВОПРОСЫ ИДУТ?</strong></p><p><strong>ЗАКРОЮ ЕЁ ПО ПРАВИЛАМ, ЧТОБЫ НЕ ОСТАЛОСЬ ХВОСТОВ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>подскажу, какой порядок закрытия подходит</li><li>ликвидацию веду сам от начала до конца</li><li>12 лет практики</li></ul><p>⠀</p><p><strong>ЧТО ВХОДИТ</strong></p><ul><li>решение о ликвидации и уведомление ФНС</li><li>сообщение в «Вестнике»</li><li>промежуточный и ликвидационный баланс</li><li>запись о прекращении в ЕГРЮЛ</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Партнёр по бизнесу ушёл к конкурентам и пытался через суд получить клиентскую базу и банковские выписки фирмы. Суд увидел злоупотребление правом и в этой части отказал. Копия решения в фото.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>честно скажу, если дешевле другой путь</li><li>фиксированная цена</li><li>оплата этапами</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ. ХОТИТЕ ОБСУДИТЬ ГОЛОСОМ, ОСТАВЬТЕ КОНТАКТНЫЙ НОМЕР</strong></p><p><strong>ПОЗВОНИТЕ, РАССКАЖУ ПОРЯДОК ПО ВАШЕЙ ФИРМЕ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_14.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/korp_procedury.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/reshenie_suda.jpg"/></Images>
+    <Address>Санкт-Петербург, Садовая улица, 28</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Разбор документов и план ликвидации|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_MSK-64</Id>
+    <DateBegin>2026-11-13T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Закрытие ООО с долгами по налогам: юрист</Title>
+    <Description><![CDATA[<p><strong>Закрытие ООО с долгами по налогам в Москве: оценю риск субсидиарки, выберу ликвидацию или банкротство и проведу процедуру.</strong></p><p><strong>ЗВОНИТЕ СРАЗУ: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, ОЦЕНЮ ШАНСЫ И НАЗОВУ ЦЕНУ</strong></p><p><strong>ДОЛГИ ФИРМЫ ПРИ ОШИБКЕ В ЗАКРЫТИИ ПЕРЕХОДЯТ НА ДИРЕКТОРА И УЧРЕДИТЕЛЯ ЛИЧНО</strong></p><p><strong>ОТВЕЧАЮ ЛИЧНО. УДОБНЕЕ ГОЛОСОМ? ОСТАВЬТЕ КОНТАКТНЫЙ НОМЕР, ПЕРЕЗВОНЮ САМ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>ООО ДОЛЖНО НАЛОГОВОЙ, И ВЫ ХОТИТЕ ВЫЙТИ ИЗ БИЗНЕСА?</strong></p><p><strong>НАЙДУ СПОСОБ ЗАКРЫТЬ КОМПАНИЮ БЕЗ ЛИЧНЫХ ПОТЕРЬ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>веду и ликвидацию, и защиту от субсидиарки</li><li>знаю, что проверяет ФНС перед исключением</li><li>объясняю риски без запугивания</li></ul><p>⠀</p><p><strong>ПЛАН РАБОТЫ</strong></p><ul><li>сверка долгов и кредиторов</li><li>выбор процедуры под вашу ситуацию</li><li>переговоры о рассрочке при необходимости</li><li>сопровождение до исключения из реестра</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Совладелец с долей 50% открыл свою фирму, увёл туда людей и через арбитраж требовал у компании договоры с клиентами и выписки банка. Я защищал компанию, в передаче ключевых документов суд отказал.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>цену называю заранее</li><li>договор с фиксированной суммой</li><li>платите по этапам, а не за обещания</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ. МОЖНО ОСТАВИТЬ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>ЗВОНИТЕ, ПОКА ДОЛГ НЕ ВЫРОС</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_18.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/korp_procedury.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/reshenie_suda.jpg"/></Images>
+    <Address>Москва, Мясницкая улица, 13</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Разбор документов и план ликвидации|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_SPB-72</Id>
+    <DateBegin>2026-11-13T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Налоговый юрист: допрос директора в ИФНС</Title>
+    <Description><![CDATA[<p><strong>Налоговый юрист для директора ООО и ИП в Санкт-Петербурге: подготовка к допросу в инспекции и сопровождение на допросе.</strong></p><p><strong>ПОЗВОНИТЕ: БЕСПЛАТНО СКАЖУ, КАКИЕ У ВАС ШАНСЫ И СКОЛЬКО ЭТО СТОИТ</strong></p><p><strong>ПОВЕСТКА НА ДОПРОС В НАЛОГОВУЮ? НЕЯВКА ИЛИ НЕОСТОРОЖНЫЙ ОТВЕТ, И ВОЗМОЖЕН ШТРАФ И ВЫЕЗДНАЯ ПРОВЕРКА</strong></p><p><strong>ОТВЕЧАЮ САМ, БЕЗ МЕНЕДЖЕРОВ. ЕСЛИ ХОТИТЕ КОНСУЛЬТАЦИЮ, МОЖЕТЕ ОСТАВИТЬ КОНТАКТНЫЙ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>ВЫЗВАЛИ В ИНСПЕКЦИЮ ДАВАТЬ ПОЯСНЕНИЯ?</strong></p><p><strong>РАЗБЕРЁМ ВОПРОСЫ ЗАРАНЕЕ И ПОЙДЁМ ВМЕСТЕ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>налоговые споры в моей специализации</li><li>6 лет руководил юридическим отделом на госслужбе</li><li>не пугаю, а называю реальные риски</li></ul><p>⠀</p><p><strong>ЧТО ДЕЛАЮ</strong></p><ul><li>разбор повестки и вероятных вопросов</li><li>подготовка директора к допросу</li><li>присутствие на допросе</li><li>позиция, если дойдёт до акта</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Бывшая работница требовала 1,5 млн ₽ и писала жалобы в инспекцию. Компания прошла проверку без штрафов, суд отказал ей в иске и поддержал встречные требования работодателя.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>стоимость до начала работы</li><li>фиксированная цена</li><li>конфиденциально</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ, ПРИШЛИТЕ ФОТО ПОВЕСТКИ</strong></p><p><strong>ЕСЛИ УДОБНЕЕ ПОГОВОРИТЬ, ОСТАВЬТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_55.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_17_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_17_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/reshenie_suda.jpg"/></Images>
+    <Address>Санкт-Петербург, Большая Морская улица, 31</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Налоговые споры|5000|Да|за услугу
+Своя услуга|Разбор документов и оценка перспектив|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_MSK-65</Id>
+    <DateBegin>2026-11-13T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Требование ФНС по НДС: налоговый юрист для ООО</Title>
+    <Description><![CDATA[<p><strong>Ответ на требование ФНС по НДС для ООО и ИП в Москве: пояснения по расхождениям, документы, возражения на акт.</strong></p><p><strong>ЗВОНИТЕ СЕЙЧАС: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, СКАЖУ, КАКИЕ ШАНСЫ И СКОЛЬКО СТОИТ</strong></p><p><strong>ПРИШЛО ТРЕБОВАНИЕ ИЗ НАЛОГОВОЙ? НА ОТВЕТ 5 РАБОЧИХ ДНЕЙ. ПРОПУСТИТЕ СРОК, ВОЗМОЖЕН ШТРАФ И РИСК БЛОКИРОВКИ СЧЁТА</strong></p><p><strong>ОТВЕЧАЮ ЛИЧНО. УДОБНЕЕ ГОЛОСОМ? ОСТАВЬТЕ КОНТАКТНЫЙ НОМЕР, ПЕРЕЗВОНЮ САМ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>ИНСПЕКЦИЯ НАШЛА РАЗРЫВ ПО НДС С КОНТРАГЕНТОМ?</strong></p><p><strong>ПОДГОТОВЛЮ ПОЯСНЕНИЯ И ДОКУМЕНТЫ ПО СДЕЛКЕ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>работаю вместе с вашим бухгалтером</li><li>понимаю логику налогового органа изнутри</li><li>налоговые споры в специализации</li></ul><p>⠀</p><p><strong>ЧТО ДЕЛАЮ</strong></p><ul><li>сверка требования с декларацией по НДС</li><li>пакет документов по контрагенту</li><li>пояснения и сопроводительное письмо</li><li>возражения и жалоба в УФНС при споре</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Партнёр по бизнесу ушёл к конкурентам и пытался через суд получить клиентскую базу и банковские выписки фирмы. Суд увидел злоупотребление правом и в этой части отказал. Копия решения в фото.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>цену называю до старта</li><li>без доплат по ходу</li><li>оплата по этапам</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ. ЕСЛИ УДОБНЕЕ ПОГОВОРИТЬ, ОСТАВЬТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>ПРИШЛИТЕ ФОТО ТРЕБОВАНИЯ, ОЦЕНЮ БЕСПЛАТНО</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_56.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_17_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_17_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/reshenie_suda.jpg"/></Images>
+    <Address>Москва, Валовая улица, 32</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Налоговые споры|5000|Да|за услугу
+Своя услуга|Разбор документов и оценка перспектив|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_MSK-66</Id>
+    <DateBegin>2026-11-13T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Налоговая заблокировала счёт: юрист для ООО и ИП</Title>
+    <Description><![CDATA[<p><strong>Блокировка расчётного счёта налоговой для ООО и ИП в Москве: выясню причину, подготовлю документы и добьюсь снятия ограничений.</strong></p><p><strong>ЗВОНИТЕ СРАЗУ: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, ОЦЕНЮ ШАНСЫ И НАЗОВУ ЦЕНУ</strong></p><p><strong>СЧЁТ ЗАБЛОКИРОВАН, ПЛАТЕЖИ СТОЯТ, ЗАРПЛАТУ НЕ ВЫПЛАТИТЬ. КАЖДЫЙ ДЕНЬ ПРОСТОЯ БЬЁТ ПО БИЗНЕСУ</strong></p><p><strong>БЕЗ МЕНЕДЖЕРОВ, ТРУБКУ БЕРУ САМ. НЕ ДОЗВОНИЛИСЬ? МОЖНО ОСТАВИТЬ НОМЕР В СООБЩЕНИЯХ, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>БАНК ПРИСЛАЛ УВЕДОМЛЕНИЕ О ПРИОСТАНОВКЕ ОПЕРАЦИЙ?</strong></p><p><strong>РАЗБЕРУСЬ, ЧТО ХОЧЕТ ИНСПЕКЦИЯ, И ПОДГОТОВЛЮ ОТВЕТ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>разбираю решение о блокировке в день обращения</li><li>знаю, какие документы нужны для снятия</li><li>веду налоговые споры бизнеса</li></ul><p>⠀</p><p><strong>ЧТО ДЕЛАЮ</strong></p><ul><li>нахожу основание блокировки</li><li>готовлю ответ, декларацию или пояснения</li><li>заявление на отмену ограничений</li><li>жалоба, если блокировка незаконна</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Совладелец с долей 50% открыл свою фирму, увёл туда людей и через арбитраж требовал у компании договоры с клиентами и выписки банка. Я защищал компанию, в передаче ключевых документов суд отказал.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>стоимость скажу сразу после разбора</li><li>цена фиксируется в договоре</li><li>оплата этапами</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ. ХОТИТЕ ОБСУДИТЬ ГОЛОСОМ, ОСТАВЬТЕ КОНТАКТНЫЙ НОМЕР</strong></p><p><strong>ЗВОНИТЕ, РАЗБЕРЁМ РЕШЕНИЕ О БЛОКИРОВКЕ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_57.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_17_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_17_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/reshenie_suda.jpg"/></Images>
+    <Address>Москва, Каланчёвская улица, 15</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Налоговые споры|5000|Да|за услугу
+Своя услуга|Разбор документов и оценка перспектив|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_MSK-67</Id>
+    <DateBegin>2026-11-13T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Проверка трудовой инспекции: юрист работодателю</Title>
+    <Description><![CDATA[<p><strong>Юрист для работодателя в Москве: подготовка к проверке трудовой инспекции, ответ на запрос ГИТ, кадровые документы.</strong></p><p><strong>ПОЗВОНИТЕ: БЕСПЛАТНО СКАЖУ, КАКИЕ У ВАС ШАНСЫ И СКОЛЬКО ЭТО СТОИТ</strong></p><p><strong>ГИТ ЗАПРОСИЛА ДОКУМЕНТЫ? ОШИБКА В ПЕРВОМ ОТВЕТЕ МОЖЕТ ОБЕРНУТЬСЯ ШТРАФОМ ИЛИ ПРОИГРАННЫМ СУДОМ</strong></p><p><strong>ОТВЕЧАЮ САМ, БЕЗ МЕНЕДЖЕРОВ. ЕСЛИ ХОТИТЕ КОНСУЛЬТАЦИЮ, МОЖЕТЕ ОСТАВИТЬ КОНТАКТНЫЙ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>РАБОТНИК НАПИСАЛ ЖАЛОБУ, И ПРИШЁЛ ЗАПРОС ИНСПЕКЦИИ?</strong></p><p><strong>ПРОВЕРЮ КАДРОВЫЕ ДОКУМЕНТЫ И ПОДГОТОВЛЮ ОТВЕТ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>защищаю работодателей, а не работников</li><li>вижу, к чему придерётся инспектор</li><li>12 лет практики</li></ul><p>⠀</p><p><strong>ЧТО ДЕЛАЮ</strong></p><ul><li>аудит трудовых договоров и приказов</li><li>ответ на запрос или предписание ГИТ</li><li>исправление ошибок до проверки</li><li>защита в суде, если спор дошёл</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Уволенная сотрудница подала иск на 1,5 млн ₽ и пожаловалась в надзорные органы. Мы привели кадровые документы в порядок, проверку компания прошла без санкций, в иске суд отказал, встречный иск работодателя удовлетворил.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>цена известна до начала</li><li>в договоре не меняется</li><li>оплата по этапам</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ. МОЖНО ОСТАВИТЬ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>ПРИШЛИТЕ ЗАПРОС ИНСПЕКЦИИ В СООБЩЕНИЯ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_58.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_04_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_04_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/case_trudovoy_1_5mln.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/yur_konsultaciya.jpg"/></Images>
+    <Address>Москва, улица Остоженка, 25</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Трудовые споры для работодателя|10000|Да|за услугу
+Своя услуга|Разбор документов и оценка перспектив|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_SPB-73</Id>
+    <DateBegin>2026-11-13T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Увольнение за прогул без суда: юрист компании</Title>
+    <Description><![CDATA[<p><strong>Увольнение сотрудника за прогул и нарушения в Санкт-Петербурге: юрист для компании оформит всё так, чтобы суд не восстановил.</strong></p><p><strong>ЗВОНИТЕ СРАЗУ: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, ОЦЕНЮ ШАНСЫ И НАЗОВУ ЦЕНУ</strong></p><p><strong>УВОЛИЛИ С ОШИБКОЙ В ПРИКАЗЕ? СОТРУДНИКА МОГУТ ВОССТАНОВИТЬ, А КОМПАНИИ ПРИДЁТСЯ ОПЛАТИТЬ ВЫНУЖДЕННЫЙ ПРОГУЛ</strong></p><p><strong>ОТВЕЧАЮ ЛИЧНО. УДОБНЕЕ ГОЛОСОМ? ОСТАВЬТЕ КОНТАКТНЫЙ НОМЕР, ПЕРЕЗВОНЮ САМ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>СОТРУДНИК НЕ ВЫХОДИТ НА РАБОТУ И НЕ ОТВЕЧАЕТ?</strong></p><p><strong>ОФОРМЛЮ УВОЛЬНЕНИЕ БЕЗ ПОВОДА ДЛЯ ИСКА</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>работаю только на стороне работодателя</li><li>знаю, где суды отменяют увольнения</li><li>объясняю шаги простыми словами</li></ul><p>⠀</p><p><strong>ЧТО ДЕЛАЮ</strong></p><ul><li>акты об отсутствии и запрос объяснений</li><li>проверка процедуры и сроков</li><li>приказ и расчёт при увольнении</li><li>защита, если работник пойдёт в суд или ГИТ</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Бывшая работница требовала 1,5 млн ₽ и писала жалобы в инспекцию. Компания прошла проверку без штрафов, суд отказал ей в иске и поддержал встречные требования работодателя.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>стоимость называю заранее</li><li>фиксированная цена</li><li>оплата по этапам</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ. ЕСЛИ УДОБНЕЕ ПОГОВОРИТЬ, ОСТАВЬТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>ЗВОНИТЕ ДО ПОДПИСАНИЯ ПРИКАЗА</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_59.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_04_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_04_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/case_trudovoy_1_5mln.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/yur_konsultaciya.jpg"/></Images>
+    <Address>Санкт-Петербург, Бассейная улица, 21</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Трудовые споры для работодателя|10000|Да|за услугу
+Своя услуга|Разбор документов и оценка перспектив|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_SPB-74</Id>
+    <DateBegin>2026-11-13T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Арендодатель не возвращает депозит: юрист бизнесу</Title>
+    <Description><![CDATA[<p><strong>Возврат обеспечительного платежа по аренде коммерческого помещения в Санкт-Петербурге: претензия, переговоры, иск арендодателю.</strong></p><p><strong>ЗВОНИТЕ СЕЙЧАС: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, СКАЖУ, КАКИЕ ШАНСЫ И СКОЛЬКО СТОИТ</strong></p><p><strong>СЪЕХАЛИ ИЗ ПОМЕЩЕНИЯ, А ДЕПОЗИТ НЕ ВЕРНУЛИ? БЕЗ ПРЕТЕНЗИИ ВОВРЕМЯ ДЕНЬГИ МОЖНО ПОТЕРЯТЬ</strong></p><p><strong>БЕЗ МЕНЕДЖЕРОВ, ТРУБКУ БЕРУ САМ. НЕ ДОЗВОНИЛИСЬ? МОЖНО ОСТАВИТЬ НОМЕР В СООБЩЕНИЯХ, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>АРЕНДОДАТЕЛЬ ВЫСТАВИЛ ПРЕТЕНЗИИ И ДЕРЖИТ ОБЕСПЕЧЕНИЕ?</strong></p><p><strong>ПРОВЕРЮ ДОГОВОР И ВЕРНУ ДЕНЬГИ ЧЕРЕЗ ПРЕТЕНЗИЮ ИЛИ СУД</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>коммерческая аренда в моём профиле</li><li>читаю договор глазами судьи</li><li>12 лет практики</li></ul><p>⠀</p><p><strong>ЧТО ДЕЛАЮ</strong></p><ul><li>анализ договора аренды и акта возврата</li><li>претензия арендодателю</li><li>переговоры о возврате</li><li>иск в арбитраж при отказе</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Партнёр по бизнесу ушёл к конкурентам и пытался через суд получить клиентскую базу и банковские выписки фирмы. Суд увидел злоупотребление правом и в этой части отказал. Копия решения в фото.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>цену называю после разбора</li><li>без скрытых доплат</li><li>оплата этапами</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ. МОЖНО ОСТАВИТЬ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>ПРИШЛИТЕ ДОГОВОР АРЕНДЫ, ПОСМОТРЮ ШАНСЫ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_60.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_07_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/komm_arenda.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_07_act.jpg"/></Images>
+    <Address>Санкт-Петербург, Херсонская улица, 12</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Разбор документов и оценка перспектив|2000|Да|за услугу
+Своя услуга|Проверка коммерческой недвижимости|5000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_MSK-68</Id>
+    <DateBegin>2026-11-13T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Проверка кафе перед покупкой за 48 часов: юрист</Title>
+    <Description><![CDATA[<p><strong>Проверка кафе, ресторана или кофейни перед покупкой в Москве: долги, аренда, лицензии, сотрудники и налоги продавца.</strong></p><p><strong>ПОЗВОНИТЕ: БЕСПЛАТНО СКАЖУ, КАКИЕ У ВАС ШАНСЫ И СКОЛЬКО ЭТО СТОИТ</strong></p><p><strong>ВНЕСЁТЕ ЗАДАТОК ДО ПРОВЕРКИ, И ВЕРНУТЬ ЕГО МОЖЕТ НЕ ПОЛУЧИТЬСЯ</strong></p><p><strong>ОТВЕЧАЮ САМ, БЕЗ МЕНЕДЖЕРОВ. ЕСЛИ ХОТИТЕ КОНСУЛЬТАЦИЮ, МОЖЕТЕ ОСТАВИТЬ КОНТАКТНЫЙ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p><strong>ПРОВЕРКА БИЗНЕСА ЗА 48 ЧАСОВ</strong></p><p>⠀</p><p><strong>ПОКУПАЕТЕ ГОТОВОЕ КАФЕ ИЛИ КОФЕЙНЮ?</strong></p><p><strong>ПОКАЖУ, ЧТО ПРОДАВЕЦ НЕ РАССКАЗАЛ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>сделки с готовым бизнесом в моём профиле</li><li>проверяю аренду и права на помещение</li><li>сопровождаю до передачи бизнеса</li></ul><p>⠀</p><p><strong>ЧТО ПРОВЕРЯЮ</strong></p><ul><li>долги, суды и исполнительные производства</li><li>договор аренды и срок его действия</li><li>лицензию на алкоголь и разрешения</li><li>сотрудников и налоговые риски</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Совладелец с долей 50% открыл свою фирму, увёл туда людей и через арбитраж требовал у компании договоры с клиентами и выписки банка. Я защищал компанию, в передаче ключевых документов суд отказал.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>цена фиксируется заранее</li><li>оплата по этапам сделки</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ. ХОТИТЕ ОБСУДИТЬ ГОЛОСОМ, ОСТАВЬТЕ КОНТАКТНЫЙ НОМЕР</strong></p><p><strong>ЗВОНИТЕ ДО ВНЕСЕНИЯ ЗАДАТКА</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_61.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_01_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_01_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/proverka_pokupka_biznesa.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/case_korp_sud_otkazal.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/reshenie_suda.jpg"/></Images>
+    <Address>Москва, Долгоруковская улица, 33</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Проверка бизнеса перед покупкой|10000|Да|за услугу
+Своя услуга|Разбор документов и оценка перспектив|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_SPB-75</Id>
+    <DateBegin>2026-11-16T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Ликвидация ООО с долгами перед поставщиками</Title>
+    <Description><![CDATA[<p><strong>Ликвидация ООО с долгами перед поставщиками и подрядчиками для учредителей и директоров в Санкт-Петербурге: сначала разбираемся с кредиторами, потом закрываем фирму.</strong></p><p><strong>ЗВОНИТЕ СЕЙЧАС: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, СКАЖУ, КАКИЕ ШАНСЫ И СКОЛЬКО СТОИТ</strong></p><p><strong>ЗАКРОЕТЕ ФИРМУ, НЕ РАССЧИТАВШИСЬ С КРЕДИТОРАМИ? ДОЛГИ МОГУТ ПЕРЕЙТИ НА ВАС ЛИЧНО</strong></p><p><strong>ОТВЕЧАЮ САМ, БЕЗ МЕНЕДЖЕРОВ. ЕСЛИ ХОТИТЕ КОНСУЛЬТАЦИЮ, МОЖЕТЕ ОСТАВИТЬ КОНТАКТНЫЙ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>ПОСТАВЩИКИ ЖДУТ ДЕНЕГ, А ООО НАДО ЗАКРЫВАТЬ?</strong></p><p><strong>ПОКАЖУ, КАК ЗАКРЫТЬ БЕЗ ЛИЧНОЙ ОТВЕТСТВЕННОСТИ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>сам веду и переговоры с кредиторами, и ликвидацию</li><li>12 лет работаю с бизнесом</li><li>объясняю без юридического тумана</li></ul><p>⠀</p><p><strong>ЧТО БУДЕТ СДЕЛАНО</strong></p><ul><li>составлю список всех, кому должна фирма</li><li>договорюсь о порядке расчётов</li><li>подготовлю балансы для ФНС</li><li>доведу закрытие до конца</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Турфирме предъявили иск на 1,5 млн ₽ от бывшего менеджера, параллельно шли жалобы в инспекцию. После аудита кадров проверка ГИТ закончилась без штрафов и предостережений, суд в иске отказал, а наш встречный иск удовлетворил.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>цену называю после разбора документов</li><li>в договоре она не меняется</li><li>оплата по этапам</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ</strong></p><p><strong>ЕСЛИ УДОБНЕЕ ПОГОВОРИТЬ, ОСТАВЬТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>ПРИШЛИТЕ ИНН ООО, СКАЖУ, С ЧЕГО НАЧАТЬ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_62.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/korp_procedury.jpg"/></Images>
+    <Address>Санкт-Петербург, Большой Сампсониевский проспект, 32</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Разбор документов и план ликвидации|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_MSK-69</Id>
+    <DateBegin>2026-11-16T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Ликвидация ООО для директора: риски и порядок</Title>
+    <Description><![CDATA[<p><strong>Ликвидация ООО для директора и учредителя в Москве: проверяю риски до подачи документов и выбираю порядок, при котором долги фирмы не станут вашими.</strong></p><p><strong>ПОЗВОНИТЕ: БЕСПЛАТНО СКАЖУ, КАКИЕ У ВАС ШАНСЫ И СКОЛЬКО ЭТО СТОИТ</strong></p><p><strong>ОШИБКА ПРИ ЛИКВИДАЦИИ, И КРЕДИТОРЫ ИДУТ К ДИРЕКТОРУ ЛИЧНО. ПРОВЕРЬТЕ РИСКИ ДО ПОДАЧИ</strong></p><p><strong>НА ЗВОНКИ ОТВЕЧАЮ ЛИЧНО. ЕСЛИ УДОБНЕЕ ГОЛОСОМ, НАПИШИТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>ДИРЕКТОР ОТВЕЧАЕТ ЗА ЗАКРЫТИЕ ФИРМЫ?</strong></p><p><strong>СНАЧАЛА ПРОВЕРЮ, ПОТОМ ЗАКРОЮ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>в профессии с 2014 года</li><li>работаю на стороне собственника и директора</li><li>вижу, где налоговая обычно отказывает</li></ul><p>⠀</p><p><strong>КАК РАБОТАЮ</strong></p><ul><li>смотрю отчётность и долги</li><li>оцениваю риск субсидиарки</li><li>готовлю решение и уведомления</li><li>довожу до исключения из ЕГРЮЛ</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Спор двух партнёров 50 на 50: один ушёл к конкуренту и через Арбитражный суд СПб и ЛО требовал выписки банка и клиентские договоры. Был представителем общества, суд в этих требованиях отказал.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>стоимость фиксируется в договоре</li><li>этапы и оплата по шагам</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ</strong></p><p><strong>ХОТИТЕ ОБСУДИТЬ ГОЛОСОМ? ОСТАВЬТЕ НОМЕР, ПЕРЕЗВОНЮ САМ</strong></p><p><strong>ЗВОНИТЕ, ПОКА НЕ ПОДАЛИ ДОКУМЕНТЫ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_63.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/bankrotstvo.jpg"/></Images>
+    <Address>Москва, улица Сущёвский Вал, 49</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Разбор документов и план ликвидации|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_SPB-76</Id>
+    <DateBegin>2026-11-16T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Закрыть ООО с одним учредителем: юрист</Title>
+    <Description><![CDATA[<p><strong>Закрытие ООО с одним учредителем в Санкт-Петербурге: решаю, какой порядок подходит именно вам, и веду ликвидацию до конца.</strong></p><p><strong>ЗВОНИТЕ СРАЗУ: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, ОЦЕНЮ ШАНСЫ И НАЗОВУ ЦЕНУ</strong></p><p><strong>ЕДИНСТВЕННЫЙ УЧРЕДИТЕЛЬ ОТВЕЧАЕТ ЗА ВСЁ. ЕСЛИ ЗАКРЫТЬ ФИРМУ С ДОЛГАМИ НЕПРАВИЛЬНО, ОНИ МОГУТ ОСТАТЬСЯ ЗА ВАМИ</strong></p><p><strong>МЕНЕДЖЕРОВ НЕТ, ГОВОРИТЕ СРАЗУ С ЮРИСТОМ. МОЖНО ОСТАВИТЬ НОМЕР В ЧАТЕ, ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>ВЫ И УЧРЕДИТЕЛЬ, И ДИРЕКТОР?</strong></p><p><strong>ЗАКРОЮ ФИРМУ АККУРАТНО</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>говорю честно, если закрывать пока рано</li><li>12 лет практики</li><li>работаю с ООО и ИП</li></ul><p>⠀</p><p><strong>ЧТО ВХОДИТ</strong></p><ul><li>выбор: обычная или упрощённая ликвидация</li><li>расчёт с налоговой и фондами</li><li>документы для регистрирующего органа</li><li>контроль до прекращения</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Бывший партнёр по ООО через суд хотел забрать у фирмы клиентскую базу, банковские выписки и трудовые договоры. Я вёл защиту компании, и в передаче этих документов суд отказал.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>фиксированная цена после разбора</li><li>платите за этапы работы</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ</strong></p><p><strong>МОЖНО ПРОСТО ОСТАВИТЬ НОМЕР, Я ПЕРЕЗВОНЮ И ВСЁ РАССКАЖУ</strong></p><p><strong>НАПИШИТЕ, ЕСТЬ ЛИ ДОЛГИ, ПОДСКАЖУ ПОРЯДОК</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_64.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/yur_konsultaciya.jpg"/></Images>
+    <Address>Санкт-Петербург, проспект Просвещения, 87</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Разбор документов и план ликвидации|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_MSK-70</Id>
+    <DateBegin>2026-11-16T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Добровольная ликвидация ООО: юрист учредителю</Title>
+    <Description><![CDATA[<p><strong>Добровольная ликвидация ООО в Москве для учредителей: решение участников, ликвидатор, балансы и запись в ЕГРЮЛ без отказов налоговой.</strong></p><p><strong>ЗВОНИТЕ СЕЙЧАС: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, СКАЖУ, КАКИЕ ШАНСЫ И СКОЛЬКО СТОИТ</strong></p><p><strong>НАЛОГОВАЯ ОТКАЗАЛА В ЛИКВИДАЦИИ? КАЖДЫЙ ОТКАЗ ЭТО ЕЩЁ МЕСЯЦЫ ОТЧЁТНОСТИ И РИСК НОВЫХ ДОЛГОВ</strong></p><p><strong>ТРУБКУ БЕРУ САМ. НЕ ПОЛУЧИЛОСЬ ДОЗВОНИТЬСЯ? ОСТАВЬТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>РЕШИЛИ ЗАКРЫТЬ БИЗНЕС ДОБРОВОЛЬНО?</strong></p><p><strong>ПРОВЕДУ ЛИКВИДАЦИЮ ПО ШАГАМ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>знаю типичные причины отказов ФНС</li><li>отвечаю сам, без помощников</li><li>12 лет работаю с компаниями</li></ul><p>⠀</p><p><strong>ПО ШАГАМ</strong></p><ul><li>решение участников и назначение ликвидатора</li><li>публикация и уведомление кредиторов</li><li>промежуточный баланс</li><li>ликвидационный баланс и ЕГРЮЛ</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Бывшая сотрудница турфирмы подала иск на 1,5 млн ₽ из-за «серой» зарплаты и писала жалобы в надзор. Провёл аудит кадровых документов, проверку ГИТ компания прошла без штрафов. Иск отклонили полностью, встречный иск о деловой репутации удовлетворили.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>цену называю после разбора документов</li><li>в договоре она не меняется</li><li>оплата по этапам</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ</strong></p><p><strong>ЕСЛИ УДОБНЕЕ ПОГОВОРИТЬ, ОСТАВЬТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>ПОЗВОНИТЕ, РАССКАЖУ, СКОЛЬКО ЭТАПОВ У ВАС</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_65.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/korp_procedury.jpg"/></Images>
+    <Address>Москва, улица Сретенка, 27</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Разбор документов и план ликвидации|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_EKB-07</Id>
+    <DateBegin>2026-11-16T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Ликвидация ООО под ключ: юрист для учредителя</Title>
+    <Description><![CDATA[<p><strong>Ликвидация ООО под ключ в Екатеринбурге для учредителей и директоров: анализ долгов, выбор порядка и сопровождение до исключения из ЕГРЮЛ.</strong></p><p><strong>ЗВОНИТЕ СРАЗУ: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, ОЦЕНЮ ШАНСЫ И НАЗОВУ ЦЕНУ</strong></p><p><strong>ПРОСТО ПЕРЕСТАТЬ СДАВАТЬ ОТЧЁТНОСТЬ НЕЛЬЗЯ: ПОСЛЕ ПРИНУДИТЕЛЬНОГО ИСКЛЮЧЕНИЯ КРЕДИТОРЫ МОГУТ ПРИЙТИ К ВАМ ЛИЧНО</strong></p><p><strong>ТРУБКУ БЕРУ САМ. НЕ ПОЛУЧИЛОСЬ ДОЗВОНИТЬСЯ? ОСТАВЬТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>ФИРМА БОЛЬШЕ НЕ НУЖНА, НО ЕСТЬ ХВОСТЫ?</strong></p><p><strong>РАЗБЕРУ ДОЛГИ И ЗАКРОЮ ООО</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>работаю с собственниками бизнеса</li><li>с 2014 года работаю юристом</li><li>понятный план до старта</li></ul><p>⠀</p><p><strong>ЧТО ВЫ ПОЛУЧИТЕ</strong></p><ul><li>понятный список долгов фирмы</li><li>оценку личного риска учредителя</li><li>полный пакет документов</li><li>запись о прекращении ООО</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Бывший партнёр по ООО через суд хотел забрать у фирмы клиентскую базу, банковские выписки и трудовые договоры. Я вёл защиту компании, и в передаче этих документов суд отказал.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>цену называю после разбора документов</li><li>в договоре она не меняется</li><li>оплата по этапам</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ</strong></p><p><strong>ХОТИТЕ ОБСУДИТЬ ГОЛОСОМ? ОСТАВЬТЕ НОМЕР, ПЕРЕЗВОНЮ САМ</strong></p><p><strong>ПРИШЛИТЕ ИНН ФИРМЫ В ЧАТ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_66.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_12_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/bankrotstvo.jpg"/></Images>
+    <Address>Екатеринбург, улица Белинского, 34</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Разбор документов и план ликвидации|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_SPB-77</Id>
+    <DateBegin>2026-11-16T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Юрист по аренде нежилого помещения: арендатору</Title>
+    <Description><![CDATA[<p><strong>Юрист по аренде нежилого помещения для арендаторов в Санкт-Петербурге: проверка договора, споры с арендодателем, депозит, штрафы и досрочный выход.</strong></p><p><strong>ЗВОНИТЕ СРАЗУ: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, ОЦЕНЮ ШАНСЫ И НАЗОВУ ЦЕНУ</strong></p><p><strong>ПОДПИСАЛИ АРЕНДУ, НЕ ЧИТАЯ ШТРАФЫ? АРЕНДОДАТЕЛЬ МОЖЕТ УДЕРЖАТЬ ДЕПОЗИТ И ПОТРЕБОВАТЬ ПЛАТУ ЗА МЕСЯЦЫ ВПЕРЁД</strong></p><p><strong>НА ЗВОНКИ ОТВЕЧАЮ ЛИЧНО. ЕСЛИ УДОБНЕЕ ГОЛОСОМ, НАПИШИТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>АРЕНДОДАТЕЛЬ МЕНЯЕТ УСЛОВИЯ?</strong></p><p><strong>ЗАЩИЩУ ИНТЕРЕСЫ АРЕНДАТОРА</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>работаю только с бизнесом</li><li>знаю, где в аренде прячут штрафы</li><li>12 лет практики</li></ul><p>⠀</p><p><strong>С ЧЕМ ПОМОГАЮ</strong></p><ul><li>проверка договора до подписи</li><li>протокол разногласий</li><li>претензия арендодателю</li><li>возврат депозита и суд</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Спор двух партнёров 50 на 50: один ушёл к конкуренту и через Арбитражный суд СПб и ЛО требовал выписки банка и клиентские договоры. Был представителем общества, суд в этих требованиях отказал.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>фиксированная цена после разбора</li><li>платите за этапы работы</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ</strong></p><p><strong>МОЖНО ПРОСТО ОСТАВИТЬ НОМЕР, Я ПЕРЕЗВОНЮ И ВСЁ РАССКАЖУ</strong></p><p><strong>ПРИШЛИТЕ ДОГОВОР АРЕНДЫ В СООБЩЕНИЯ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_67.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_07_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_07_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/komm_arenda.jpg"/></Images>
+    <Address>Санкт-Петербург, Лиговский проспект, 87</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Разбор договора аренды|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_MSK-71</Id>
+    <DateBegin>2026-11-16T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Расторжение аренды офиса: юрист арендатору</Title>
+    <Description><![CDATA[<p><strong>Расторжение договора аренды офиса или склада для арендаторов в Москве: выход из договора с минимальными потерями и возврат обеспечительного платежа.</strong></p><p><strong>ЗВОНИТЕ СЕЙЧАС: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, СКАЖУ, КАКИЕ ШАНСЫ И СКОЛЬКО СТОИТ</strong></p><p><strong>СЪЕЗЖАЕТЕ ИЗ ОФИСА? ОДНО НЕВЕРНОЕ УВЕДОМЛЕНИЕ, И ДЕПОЗИТ МОГУТ НЕ ВЕРНУТЬ</strong></p><p><strong>МЕНЕДЖЕРОВ НЕТ, ГОВОРИТЕ СРАЗУ С ЮРИСТОМ. МОЖНО ОСТАВИТЬ НОМЕР В ЧАТЕ, ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>НАДО ВЫЙТИ ИЗ АРЕНДЫ РАНЬШЕ СРОКА?</strong></p><p><strong>НАЙДУ ЗАКОННЫЙ ВЫХОД</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>читаю договор с позиции арендатора</li><li>веду переговоры с арендодателем сам</li><li>с 2014 года в профессии</li></ul><p>⠀</p><p><strong>ПЛАН</strong></p><ul><li>анализ условий о расторжении</li><li>уведомление и соглашение</li><li>акт возврата помещения</li><li>претензия и суд, если депозит удержали</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Бывший партнёр по ООО через суд хотел забрать у фирмы клиентскую базу, банковские выписки и трудовые договоры. Я вёл защиту компании, и в передаче этих документов суд отказал.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>цену называю после разбора документов</li><li>в договоре она не меняется</li><li>оплата по этапам</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ</strong></p><p><strong>ЕСЛИ УДОБНЕЕ ПОГОВОРИТЬ, ОСТАВЬТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>ЗВОНИТЕ ДО ОТПРАВКИ УВЕДОМЛЕНИЯ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_68.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_07_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_07_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/komm_arenda.jpg"/></Images>
+    <Address>Москва, Бауманская улица, 33</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Разбор договора аренды|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_SPB-78</Id>
+    <DateBegin>2026-11-16T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Проверка кадровых документов: юрист работодателю</Title>
+    <Description><![CDATA[<p><strong>Проверка кадровых документов для работодателей в Санкт-Петербурге: трудовые договоры, приказы, графики и зарплата до проверки ГИТ или суда с работником.</strong></p><p><strong>ПОЗВОНИТЕ: БЕСПЛАТНО СКАЖУ, КАКИЕ У ВАС ШАНСЫ И СКОЛЬКО ЭТО СТОИТ</strong></p><p><strong>ПРИШЛА ПРОВЕРКА ИЛИ ЖАЛОБА СОТРУДНИКА? ОШИБКА В ПЕРВОМ ОТВЕТЕ МОЖЕТ ОБЕРНУТЬСЯ ШТРАФОМ ИЛИ ПРОИГРАННЫМ СУДОМ</strong></p><p><strong>ТРУБКУ БЕРУ САМ. НЕ ПОЛУЧИЛОСЬ ДОЗВОНИТЬСЯ? ОСТАВЬТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>КАДРЫ ВЕДУТСЯ «КАК ПОЛУЧИТСЯ»?</strong></p><p><strong>НАВЕДУ ПОРЯДОК ДО ПРОВЕРКИ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>работаю только на стороне работодателя</li><li>знаю, что смотрит трудовая инспекция</li><li>12 лет практики</li></ul><p>⠀</p><p><strong>ЧТО ПРОВЕРЯЮ</strong></p><ul><li>трудовые договоры и допсоглашения</li><li>приказы и личные карточки</li><li>графики, табели, зарплату</li><li>локальные акты</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Бывшая сотрудница турфирмы подала иск на 1,5 млн ₽ из-за «серой» зарплаты и писала жалобы в надзор. Провёл аудит кадровых документов, проверку ГИТ компания прошла без штрафов. Иск отклонили полностью, встречный иск о деловой репутации удовлетворили.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>стоимость фиксируется в договоре</li><li>этапы и оплата по шагам</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ</strong></p><p><strong>ХОТИТЕ ОБСУДИТЬ ГОЛОСОМ? ОСТАВЬТЕ НОМЕР, ПЕРЕЗВОНЮ САМ</strong></p><p><strong>НАПИШИТЕ, СКОЛЬКО У ВАС СОТРУДНИКОВ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_69.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_04_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_04_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/case_trudovoy_1_5mln.jpg"/></Images>
+    <Address>Санкт-Петербург, Заневский проспект, 30</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Трудовые споры для работодателя|10000|Да|за услугу
+Своя услуга|Разбор документов по трудовому спору|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_MSK-72</Id>
+    <DateBegin>2026-11-16T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Взыскание долга с контрагента по претензии</Title>
+    <Description><![CDATA[<p><strong>Взыскание долга с контрагента для ООО и ИП в Москве: претензия, переговоры, арбитраж и исполнительное производство.</strong></p><p><strong>ЗВОНИТЕ СРАЗУ: КОНСУЛЬТАЦИЯ БЕСПЛАТНО, ОЦЕНЮ ШАНСЫ И НАЗОВУ ЦЕНУ</strong></p><p><strong>КОНТРАГЕНТ ТЯНЕТ С ОПЛАТОЙ? ЧЕМ ДОЛЬШЕ ЖДЁТЕ, ТЕМ ВЫШЕ РИСК, ЧТО ВЗЫСКИВАТЬ БУДЕТ НЕ С КОГО</strong></p><p><strong>ОТВЕЧАЮ САМ, БЕЗ МЕНЕДЖЕРОВ. ЕСЛИ ХОТИТЕ КОНСУЛЬТАЦИЮ, МОЖЕТЕ ОСТАВИТЬ КОНТАКТНЫЙ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>ОБЕЩАЮТ ЗАПЛАТИТЬ «НА СЛЕДУЮЩЕЙ НЕДЕЛЕ»?</strong></p><p><strong>НАЧНУ С ПРЕТЕНЗИИ</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>оцениваю шансы честно, до договора</li><li>веду дело от претензии до взыскания</li><li>работаю с арбитражем с 2014 года</li></ul><p>⠀</p><p><strong>ЭТАПЫ</strong></p><ul><li>анализ договора и актов</li><li>претензия должнику</li><li>иск в арбитражный суд</li><li>исполнительный лист и приставы</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Совладелец компании с долей 50% создал свою фирму, переманил сотрудников и пытался через арбитраж получить договоры с клиентами. Я защищал компанию. В выдаче ключевых документов суд отказал.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>фиксированная цена после разбора</li><li>платите за этапы работы</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ</strong></p><p><strong>МОЖНО ПРОСТО ОСТАВИТЬ НОМЕР, Я ПЕРЕЗВОНЮ И ВСЁ РАССКАЖУ</strong></p><p><strong>ПРИШЛИТЕ ДОГОВОР И АКТЫ, ОЦЕНЮ ШАНСЫ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_70.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_05_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_05_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/vzyskanie.jpg"/></Images>
+    <Address>Москва, Профсоюзная улица, 56</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Претензия и взыскание долга|3000|Да|за услугу
+Своя услуга|Разбор документов и оценка перспектив|2000|Да|за услугу</PriceList>
+  </Ad>
+  <Ad>
+    <Id>PB_SPB-79</Id>
+    <DateBegin>2026-11-16T12:00:00+03:00</DateBegin>
+    <AdStatus>Free</AdStatus>
+    <Category>Предложение услуг</Category>
+    <ServiceType>Деловые услуги</ServiceType>
+    <ServiceSubtype>Юридические услуги</ServiceSubtype>
+    <ServiceSubspecies>Сопровождение бизнеса</ServiceSubspecies>
+    <Title>Ответ на требование налоговой: юрист для ИП</Title>
+    <Description><![CDATA[<p><strong>Ответ на требование налоговой для ИП и ООО в Санкт-Петербурге: пояснения, документы и позиция, чтобы не получить доначисления.</strong></p><p><strong>ПОЗВОНИТЕ: БЕСПЛАТНО СКАЖУ, КАКИЕ У ВАС ШАНСЫ И СКОЛЬКО ЭТО СТОИТ</strong></p><p><strong>ТРЕБОВАНИЕ ИЗ ИФНС НЕЛЬЗЯ ОТЛОЖИТЬ: НА ОТВЕТ 5 РАБОЧИХ ДНЕЙ, А БЕЗ ОТВЕТА ВОЗМОЖНЫ ШТРАФ И БЛОКИРОВКА СЧЁТА</strong></p><p><strong>МЕНЕДЖЕРОВ НЕТ, ГОВОРИТЕ СРАЗУ С ЮРИСТОМ. МОЖНО ОСТАВИТЬ НОМЕР В ЧАТЕ, ПЕРЕЗВОНЮ</strong></p><p><strong>РАЗБОР ДОКУМЕНТОВ ОТ 2 000 ₽</strong></p><p>⠀</p><p><strong>НАЛОГОВАЯ ПРОСИТ ПОЯСНЕНИЯ?</strong></p><p><strong>ПОДГОТОВЛЮ ОТВЕТ БЕЗ ЛИШНЕГО</strong></p><p><strong>97% ВЫИГРАННЫХ ДЕЛ</strong></p><p>⠀</p><p><strong>ПОЧЕМУ КО МНЕ ОБРАЩАЮТСЯ</strong></p><ul><li>разбираю требование по пунктам, без паники</li><li>отвечаю сам</li><li>с 2014 года в профессии</li></ul><p>⠀</p><p><strong>ПОРЯДОК РАБОТЫ</strong></p><ul><li>читаю, что именно хочет инспектор</li><li>решаю, какие бумаги отдавать</li><li>готовлю письменные пояснения</li><li>помогаю, если ИФНС вызывает на допрос</li></ul><p>⠀</p><p><strong>ИЗ ЛИЧНОЙ ПРАКТИКИ</strong></p><p>Турфирме предъявили иск на 1,5 млн ₽ от бывшего менеджера, параллельно шли жалобы в инспекцию. После аудита кадров проверка ГИТ закончилась без штрафов и предостережений, суд в иске отказал, а наш встречный иск удовлетворил.</p><p>⠀</p><p><strong>ПРОЗРАЧНО И ЧЕСТНО</strong></p><ul><li>фиксированная цена после разбора</li><li>платите за этапы работы</li></ul><p>⠀</p><p><strong>ПИШИТЕ В СООБЩЕНИЯ</strong></p><p><strong>ЕСЛИ УДОБНЕЕ ПОГОВОРИТЬ, ОСТАВЬТЕ НОМЕР, Я ПЕРЕЗВОНЮ</strong></p><p><strong>ПРИШЛИТЕ ФОТО ТРЕБОВАНИЯ В ЧАТ</strong></p>]]></Description>
+    <Price>2000</Price>
+    <Images><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/live_71.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_17_pain.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/pb_17_act.jpg"/><Image url="https://raw.githubusercontent.com/hall01mmsk/pravo-feed/main/img/yur_konsultaciya.jpg"/></Images>
+    <Address>Санкт-Петербург, Богатырский проспект, 14</Address>
+    <ManagerName>Глеб</ManagerName>
+    <ContactMethod>По телефону и в сообщениях</ContactMethod>
+    <BusinessSpecialization>Предпринимательское право</BusinessSpecialization>
+    <FormatWork>Разовая консультация | Сопровождение до результата | Долгосрочное сотрудничество или абонентское сопровождение</FormatWork>
+    <TypesOfCourts>Суды общей юрисдикции | Арбитражные суды</TypesOfCourts>
+    <WorkWith>ИП | ООО | АО</WorkWith>
+    <WorkExperience>10 лет и больше</WorkExperience>
+    <TakeUrgentOrders>Да</TakeUrgentOrders>
+    <Place>У себя | Удалённо</Place>
+    <Prepayment>Нужна</Prepayment>
+    <Consultations>Есть</Consultations>
+    <WorkWithContract>Да</WorkWithContract>
+    <WorkDays>Понедельник | Вторник | Среда | Четверг | Пятница</WorkDays>
+    <WorkTimeFrom>10:00</WorkTimeFrom>
+    <WorkTimeTo>19:00</WorkTimeTo>
+    <PriceList>Своя услуга|Налоговые споры|5000|Да|за услугу
+Своя услуга|Разбор документов и оценка перспектив|2000|Да|за услугу</PriceList>
   </Ad>
 </Ads>
